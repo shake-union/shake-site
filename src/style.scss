@@ -1,0 +1,113 @@
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import '/node_modules/bootstrap/scss/functions';
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)
+@import '/node_modules/bootstrap/scss/variables';
+@import '/node_modules/bootstrap/scss/variables-dark';
+
+// 4. Include any default map overrides here
+$ansi-red: #e1443d;
+$ansi-cyan: #73b5c5;
+
+$shake-primary: #ff4d4d;
+
+$ansi-colors: (
+	'ansi-red': $ansi-red
+);
+
+$shake-colors: (
+	'shake-primary': $shake-primary
+);
+
+$theme-colors: map-merge($theme-colors, $ansi-colors);
+$theme-colors: map-merge($theme-colors, $shake-colors);
+
+$spacers: map-merge(
+	$spacers,
+	(
+		6: $spacer * 4.5,
+		7: $spacer * 6
+	)
+);
+
+$font-size-root: 14px;
+
+$font-family-sans-serif: join(
+	('Noto Sans', 'AppleSDGothicNeo', 'APPLE SD Gothic Neo', 'Nanum Gothic'),
+	$font-family-sans-serif
+);
+
+$link-color: $shake-primary;
+$link-hover-color: shift-color($link-color, $link-shade-percentage);
+$link-decoration: none;
+
+// 5. Include remainder of required parts
+@import '/node_modules/bootstrap/scss/maps';
+@import '/node_modules/bootstrap/scss/mixins';
+@import '/node_modules/bootstrap/scss/root';
+
+// 6. Optionally include any other parts as needed
+@import '/node_modules/bootstrap/scss/utilities';
+@import '/node_modules/bootstrap/scss/reboot';
+@import '/node_modules/bootstrap/scss/type';
+@import '/node_modules/bootstrap/scss/images';
+@import '/node_modules/bootstrap/scss/containers';
+@import '/node_modules/bootstrap/scss/grid';
+@import '/node_modules/bootstrap/scss/helpers';
+@import '/node_modules/bootstrap/scss/buttons';
+@import '/node_modules/bootstrap/scss/nav';
+@import '/node_modules/bootstrap/scss/navbar';
+@import '/node_modules/bootstrap/scss/tables';
+
+// 7. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import '/node_modules/bootstrap/scss/utilities/api';
+
+// 8. Add additional custom code here
+
+.btn-punch {
+	// --bs-btn-color: var(--bs-white);
+	--bs-btn-border-radius: 0.15rem;
+	--bs-btn-padding-x: 1.3rem;
+	--bs-btn-padding-y: 1rem;
+	--bs-btn-font-size: 0.85rem;
+	--bs-btn-font-weight: bold;
+}
+
+.btn-contest-problem {
+	--#{$prefix}btn-font-size: 0.85rem;
+	@include button-variant($ansi-red, $ansi-red, white);
+}
+.btn-contest-solution {
+	--#{$prefix}btn-font-size: 0.85rem;
+	@include button-outline-variant($ansi-red, color-contrast($ansi-red), transparent);
+}
+.btn-precontest-problem {
+	--#{$prefix}btn-font-size: 0.85rem;
+	@include button-variant($ansi-cyan, $ansi-cyan, white, $hover-color: white);
+}
+.btn-precontest-solution {
+	--#{$prefix}btn-font-size: 0.85rem;
+	@include button-outline-variant($ansi-cyan, color-contrast($ansi-cyan), transparent);
+}
+
+.nav-tabs-apply {
+	--#{$prefix}nav-link-padding-x: 0.5rem;
+	--#{$prefix}nav-link-padding-y: 1rem;
+	@include rfs(0.8rem, --#{$prefix}nav-link-font-size);
+	--#{$prefix}nav-link-color: #{$ansi-red};
+	--#{$prefix}nav-link-hover-color: #{$ansi-red};
+
+	.nav-link {
+		border: none;
+	}
+
+	.nav-link.active {
+		border-bottom: 1px solid black;
+	}
+
+	.nav-link:hover {
+		background-color: #eee;
+	}
+}
