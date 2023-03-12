@@ -50,7 +50,12 @@
 	<link rel="icon" type="image/png" href="/images/favicons/apc/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/png" href="/images/favicons/apc/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="/images/favicons/apc/favicon-16x16.png" sizes="16x16" />
-	<link rel="icon" type="image/png" href="/images/favicons/apc/favicon-128.png" sizes="128x128" />
+	<link
+		rel="icon"
+		type="image/png"
+		href="/images/favicons/apc/favicon-128x128.png"
+		sizes="128x128"
+	/>
 	<meta name="application-name" content="2022 APC" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="/images/favicons/apc/mstile-144x144.png" />

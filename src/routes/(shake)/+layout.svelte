@@ -50,7 +50,12 @@
 	<link rel="icon" type="image/png" href="/images/favicons/shake/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/png" href="/images/favicons/shake/favicon-32x32.png" sizes="32x32" />
 	<link rel="icon" type="image/png" href="/images/favicons/shake/favicon-16x16.png" sizes="16x16" />
-	<link rel="icon" type="image/png" href="/images/favicons/shake/favicon-128.png" sizes="128x128" />
+	<link
+		rel="icon"
+		type="image/png"
+		href="/images/favicons/shake/favicon-128x128.png"
+		sizes="128x128"
+	/>
 	<meta name="application-name" content="shake! 2022" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="/images/favicons/shake/mstile-144x144.png" />
@@ -81,7 +86,7 @@
 		<div class="row py-1">
 			<div class="col-md-10 offset-md-1">
 				<nav class="navbar navbar-expand-lg">
-					<a class="navbar-brand" href="/#videoback" title="">
+					<a class="navbar-brand" href="/" title="">
 						<img src="/logo-shake-black.png" class="middle-content" alt="" height="24px" />
 					</a>
 					<button
