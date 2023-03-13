@@ -111,7 +111,7 @@
 		<div class="row">
 			<div class="col-md-10 offset-md-1">
 				<nav class="navbar navbar-expand-lg">
-					<a class="navbar-brand" href="/apc">
+					<a class="navbar-brand" href="{base}/apc">
 						<img src="{base}/logo-apc.png" alt="APC" height="30px" />
 					</a>
 					<button

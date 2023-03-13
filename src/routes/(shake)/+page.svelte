@@ -110,7 +110,7 @@
 			<div class="col-md-2 text-center">
 				<div class="row justify-content-center">
 					<div class="col-5 col-md-9">
-						<img src="/icon-goal-growth.png" class="w-100 mb-4" alt="growth" />
+						<img src="{base}/icon-goal-growth.png" class="w-100 mb-4" alt="growth" />
 					</div>
 				</div>
 				<h5>실력향상</h5>
@@ -119,7 +119,7 @@
 			<div class="col-md-2 text-center">
 				<div class="row justify-content-center">
 					<div class="col-5 col-md-9">
-						<img src="/icon-goal-sharing.png" class="w-100 mb-4" alt="sharing" />
+						<img src="{base}/icon-goal-sharing.png" class="w-100 mb-4" alt="sharing" />
 					</div>
 				</div>
 				<h5>상호교류</h5>
@@ -128,7 +128,7 @@
 			<div class="col-md-2 text-center">
 				<div class="row justify-content-center">
 					<div class="col-5 col-md-9">
-						<img src="/icon-goal-talent.png" class="w-100 mb-4" alt="talent" />
+						<img src="{base}/icon-goal-talent.png" class="w-100 mb-4" alt="talent" />
 					</div>
 				</div>
 				<h5>인재발굴</h5>
@@ -152,7 +152,7 @@
 			</div>
 			<div class="col-md-1 d-none d-md-block" />
 			<div class="col-md-3">
-				<img src="/icon-category-basic.png" class="w-25 mb-4" alt="growth" />
+				<img src="{base}/icon-category-basic.png" class="w-25 mb-4" alt="growth" />
 				<h5>기초 프로그래밍</h5>
 				<p>
 					추상적인 상황과 자신의 생각을 논리적으로 전개하고 이를 코드로 표현할 수 있는 프로그래밍
@@ -160,7 +160,7 @@
 				</p>
 			</div>
 			<div class="col-md-3">
-				<img src="/icon-category-math.png" class="w-25 mb-4" alt="growth" />
+				<img src="{base}/icon-category-math.png" class="w-25 mb-4" alt="growth" />
 				<h5>수학</h5>
 				<p>
 					문제에 대한 분석을 바탕으로 풀이를 도출하고 이를 수학적으로 증명할 수 있는 사고력을
@@ -172,7 +172,7 @@
 			<div class="col-md-1 d-none d-md-block" />
 			<div class="col-md-1 d-none d-md-block" />
 			<div class="col-md-3">
-				<img src="/icon-category-datastructure.png" class="w-25 mb-4" alt="growth" />
+				<img src="{base}/icon-category-datastructure.png" class="w-25 mb-4" alt="growth" />
 				<h5>자료구조</h5>
 				<p>
 					다양한 데이터들의 특징을 파악하여 상황과 필요에 맞게 구조화 할 수 있는 자료구조에 대한
@@ -180,7 +180,7 @@
 				</p>
 			</div>
 			<div class="col-md-3">
-				<img src="/icon-category-dynamic.png" class="w-25 mb-4" alt="growth" />
+				<img src="{base}/icon-category-dynamic.png" class="w-25 mb-4" alt="growth" />
 				<h5>동적 계획법</h5>
 				<p>
 					복잡한 문제를 간소화하거나, 그 안에서 규칙성을 찾아 정확한 해답을 찾을 수 있는 청의력과
@@ -188,7 +188,7 @@
 				</p>
 			</div>
 			<div class="col-md-3">
-				<img src="/icon-category-graph.png" class="w-25 mb-4" alt="growth" />
+				<img src="{base}/icon-category-graph.png" class="w-25 mb-4" alt="growth" />
 				<h5>그래프</h5>
 				<p>
 					추상적인 상황 속에 숨겨진 논리적인 관계를 파악하고, 이러한 관계의 특징을 이용해 원하는
@@ -703,7 +703,7 @@
 </section>
 
 <section class="position-relative">
-	<img class="position-absolute w-100 h-100 object-fit-cover" src="/bg-parallax.png" alt="" />
+	<img class="position-absolute w-100 h-100 object-fit-cover" src="{base}/bg-parallax.png" alt="" />
 	<div class="container position-relative">
 		<div class="row py-5">
 			<div class="col-10 offset-md-1">

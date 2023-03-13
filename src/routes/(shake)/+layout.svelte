@@ -111,7 +111,7 @@
 		<div class="row py-1">
 			<div class="col-md-10 offset-md-1">
 				<nav class="navbar navbar-expand-lg">
-					<a class="navbar-brand" href="/" title="">
+					<a class="navbar-brand" href="{base}/" title="">
 						<img src="{base}/logo-shake-black.png" class="middle-content" alt="" height="24px" />
 					</a>
 					<button
