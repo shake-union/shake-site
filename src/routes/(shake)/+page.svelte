@@ -61,10 +61,13 @@
 		<a
 			href="#about"
 			title=""
-			class="position-absolute bottom-0 start-50 translate-middle text-shake-primary shadow bg-white rounded-circle text-center"
+			class="fs-5 position-absolute bottom-0 start-50 translate-middle text-shake-primary shadow bg-white rounded-circle text-center"
 		>
-			<svg class="bi m-2" width="24" height="24" fill="currentColor"
-				><use xlink:href="bootstrap-icons.svg#arrow-down" /></svg
+			<svg
+				class="bi m-2 animate__animated animate__bounce animate__infinite"
+				width="1em"
+				height="1em"
+				fill="currentColor"><use xlink:href="bootstrap-icons.svg#arrow-down" /></svg
 			>
 		</a>
 	</div>

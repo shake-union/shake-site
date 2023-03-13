@@ -180,7 +180,7 @@
 					</div>
 					<div class="col-md-4">
 						<h5><strong>주관</strong></h5>
-						<p class="small">
+						<p>
 							아주대학교 알고리즘 소학회 <strong>A.N.S.I.</strong>
 							<br />경희대학교 컴퓨터공학부 학생회
 							<br />성균관대학교 알고리즘 동아리 <strong>NPC</strong>
@@ -216,7 +216,16 @@
 					</div>
 					<div class="col-md-4">
 						<h5><strong>문의</strong></h5>
-						<p class="small">email) <a href="mailto:ansi.ajou@gmail.com">ansi.ajou@gmail.com</a></p>
+						<p>email) <a href="mailto:ansi.ajou@gmail.com">ansi.ajou@gmail.com</a></p>
+					</div>
+					<div class="col-md-4">
+						<h5><strong>링크</strong></h5>
+						<p>
+							<i class="bi bi-github" /> GitHub:
+							<a href="https://github.com/shake-union" target="_blank" rel="noreferrer"
+								>github.com/shake-union</a
+							>
+						</p>
 					</div>
 				</div>
 			</div>
@@ -224,7 +233,13 @@
 		<hr class="my-0" />
 		<div class="row my-5">
 			<div class="col text-center">
-				<p class="small">© shake! 2015-2023</p>
+				<!--
+					Origianlly developed by waps12b at 2015 (waps12b@naver.com)
+        			Originally designed by garam at 2015 (http://gar.am)
+					Refactored by rlj1202 at 2023 using SvelteKit (rlj1202@gmail.com)
+					Maintained by rlj1202 since 2023 (rlj1202@gmail.com)
+				-->
+				<p>© shake! 2015-2023</p>
 			</div>
 		</div>
 	</div>
