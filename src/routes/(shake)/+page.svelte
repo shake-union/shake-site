@@ -468,7 +468,11 @@
 						<h3>shake! 본선 기출</h3>
 						<div class="row g-1 mb-1">
 							{#each shakeData as { year, problemUrl }}
-								<a href={problemUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
+								<a
+									href={problemUrl}
+									target="_blank"
+									rel="noreferrer"
+									class="col-4 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-contest-problem w-100"
 										><strong>{year.slice(2)} 본선 문제</strong></button
 									></a
@@ -477,7 +481,11 @@
 						</div>
 						<div class="row g-1">
 							{#each shakeData as { year, solutionUrl }}
-								<a href={solutionUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
+								<a
+									href={solutionUrl}
+									target="_blank"
+									rel="noreferrer"
+									class="col-4 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-contest-solution w-100"
 										><strong>{year.slice(2)} 본선 풀이</strong></button
 									></a
@@ -489,7 +497,11 @@
 						<h3>shake! 예선 기출</h3>
 						<div class="row g-1 mb-1">
 							{#each apcData as { year, problemUrl }}
-								<a href={problemUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
+								<a
+									href={problemUrl}
+									target="_blank"
+									rel="noreferrer"
+									class="col-4 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-precontest-problem w-100"
 										><strong>{year.slice(2)} 예선 문제</strong></button
 									></a
@@ -498,7 +510,11 @@
 						</div>
 						<div class="row g-1">
 							{#each apcData as { year, solutionUrl }}
-								<a href={solutionUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
+								<a
+									href={solutionUrl}
+									target="_blank"
+									rel="noreferrer"
+									class="col-4 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-precontest-solution w-100"
 										><strong>{year.slice(2)} 예선 풀이</strong></button
 									></a
@@ -541,8 +557,11 @@
 							<li>각 학교 선발전을 통해 정당하게 선출된 자</li>
 							<li>2022년 1, 2학기 기준 해당 학교 1학기 이상 재학한 자</li>
 							<li>
-								역대 <strong><a href="https://ucpc.me/">한국 프로그래밍 경시대회</a></strong> 수상자가
-								아닌 자
+								역대 <strong
+									><a href="https://ucpc.me/" target="_blank" rel="noreferrer"
+										>한국 프로그래밍 경시대회</a
+									></strong
+								> 수상자가 아닌 자
 							</li>
 							<li>역대 <strong>shake!</strong> 3위 이내 수상자가 아닌 자</li>
 							<li>
@@ -615,8 +634,11 @@
 						</div>
 						<h3>채점 환경</h3>
 						<p>
-							모든 채점은 <a href="https://startlink.io/">Startlink</a>의
-							<a href="https://www.acmicpc.net">백준 온라인 저지</a>
+							모든 채점은 <a href="https://startlink.io/" target="_blank" rel="noreferrer"
+								>Startlink</a
+							>의
+							<a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a
+							>
 							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있습니다.<br />
 							언어마다 다른 채점기준이 적용되며, 각 언어별 컴파일 및 실행 옵션, 버전, 채점기준은 아래와
 							같습니다.<br />
@@ -695,7 +717,10 @@
 							</li>
 						</ul>
 						<p>
-							언어별 예제 등의 자세한 사항은 <a href="https://www.acmicpc.net/help/language">여기</a
+							언어별 예제 등의 자세한 사항은 <a
+								href="https://www.acmicpc.net/help/language"
+								target="_blank"
+								rel="noreferrer">여기</a
 							>에서 확인 바랍니다.
 						</p>
 					</div>

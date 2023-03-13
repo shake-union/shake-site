@@ -216,7 +216,10 @@
 					</div>
 					<div class="col-md-4">
 						<h5><strong>문의</strong></h5>
-						<p>email) <a href="mailto:ansi.ajou@gmail.com">ansi.ajou@gmail.com</a></p>
+						<p>
+							<i class="bi bi-envelope" /> email:
+							<a href="mailto:ansi.ajou@gmail.com">ansi.ajou@gmail.com</a>
+						</p>
 					</div>
 					<div class="col-md-4">
 						<h5><strong>링크</strong></h5>
@@ -239,7 +242,7 @@
 					Refactored by rlj1202 at 2023 using SvelteKit (rlj1202@gmail.com)
 					Maintained by rlj1202 since 2023 (rlj1202@gmail.com)
 				-->
-				<p>© shake! 2015-2023</p>
+				<p><i class="bi bi-c-circle" /> shake! 2015-2023</p>
 			</div>
 		</div>
 	</div>
