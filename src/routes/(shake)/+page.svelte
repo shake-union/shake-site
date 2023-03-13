@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import shakeData from '../../shake-data.csv';
 	import apcData from '../../apc-data.csv';
 </script>
@@ -11,7 +13,7 @@
 		muted
 		loop
 	>
-		<source src="/bg-main.mp4" type="video/mp4" />
+		<source src="{base}/bg-main.mp4" type="video/mp4" />
 	</video>
 
 	<div
@@ -36,7 +38,7 @@
 				</h1>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="/results/2022" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+					<a href="{base}/results/2022" class="btn btn-punch shadow-sm btn-shake-primary text-light"
 						>2022 결과</a
 					>
 				</div>
@@ -50,7 +52,7 @@
 				</h2>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="/results/2022" class="btn btn-punch shadow-sm btn-shake-red text-light"
+					<a href="{base}/results/2022" class="btn btn-punch shadow-sm btn-shake-primary text-light"
 						>2022 결과</a
 					>
 				</div>
@@ -285,8 +287,10 @@
 							</p>
 
 							<p>
-								<a href="/apc">
-									<button class="btn btn-danger btn-danger">아주대학교 선발전 바로가기</button>
+								<a href="{base}/apc">
+									<button class="btn btn-shake-primary text-white"
+										>아주대학교 선발전 바로가기</button
+									>
 								</a>
 							</p>
 
@@ -456,7 +460,7 @@
 					<strong>shake!</strong>는 단순한 알고리즘 지식 경쟁 보다는 일반 소프트웨어 학부 과정에서
 					배울 수 있는 알고리즘과 자료구조의 이해와 확장을 목표로 합니다.
 				</p>
-				<div class="row gy-3">
+				<div class="row gy-3 mb-3">
 					<div class="col-md-6">
 						<h3>shake! 본선 기출</h3>
 						<div class="row g-1 mb-1">
@@ -498,6 +502,18 @@
 								>
 							{/each}
 						</div>
+					</div>
+				</div>
+				<div class="">
+					<h3>이전 결과</h3>
+					<div class="row g-1">
+						{#each shakeData as { year }}
+							<a href="{base}/results/{year}" class="col-auto"
+								><button type="button" class="btn btn-contest-result"
+									><strong>{year} 결과</strong></button
+								></a
+							>
+						{/each}
 					</div>
 				</div>
 			</div>

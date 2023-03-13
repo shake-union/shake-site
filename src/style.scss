@@ -9,12 +9,21 @@
 
 // 4. Include any default map overrides here
 $ansi-red: #e1443d;
-$ansi-cyan: #73b5c5;
+$ansi-black: #383131;
+$ansi-cyan: #75b5c4;
+$ansi-yellow: #eee273;
+$ansi-green: #a6d3b2;
+$ansi-brown: #d5c195;
 
 $shake-primary: #ff4d4d;
 
 $ansi-colors: (
-	'ansi-red': $ansi-red
+	'ansi-red': $ansi-red,
+	'ansi-black': $ansi-black,
+	'ansi-cyan': $ansi-cyan,
+	'ansi-yellow': $ansi-yellow,
+	'ansi-green': $ansi-green,
+	'ansi-brown': $ansi-brown
 );
 
 $shake-colors: (
@@ -90,6 +99,10 @@ $link-decoration: none;
 .btn-precontest-solution {
 	--#{$prefix}btn-font-size: 0.85rem;
 	@include button-outline-variant($ansi-cyan, color-contrast($ansi-cyan), transparent);
+}
+.btn-contest-result {
+	--#{$prefix}btn-font-size: 0.85rem;
+	@include button-variant($ansi-green, $ansi-green, white, $hover-color: white);
 }
 
 .nav-tabs-apply {

@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <section class="bg-light d-flex position-relative">
 	<video
 		class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover"
@@ -6,7 +10,7 @@
 		muted
 		loop
 	>
-		<source src="/bg-main.mp4" type="video/mp4" />
+		<source src="{base}/bg-main.mp4" type="video/mp4" />
 	</video>
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
@@ -93,7 +97,7 @@
 							<li>장려상: 소프트웨어융합대학장상 및 상금 10만원(3명)</li>
 						</ul>
 						<p>
-							상위 입상자에게 경인지역 6개대학 연합 프로그래밍 경시대회 <a href="/"
+							상위 입상자에게 경인지역 6개대학 연합 프로그래밍 경시대회 <a href="{base}/"
 								><strong>shake!</strong></a
 							> 참가 자격 부여
 						</p>
@@ -421,12 +425,17 @@
 						</p>
 						<p>
 							<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
-								<img src="/logo-ajou-linc3.0.png" alt="linc 3.0" width="300px" class="mw-100" />
+								<img
+									src="{base}/logo-ajou-linc3.0.png"
+									alt="linc 3.0"
+									width="300px"
+									class="mw-100"
+								/>
 							</a>
 						</p>
 						<p>
 							<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
-								<img src="/logo-ajou-ncesw.png" alt="linc 3.0" width="300px" class="mw-100" />
+								<img src="{base}/logo-ajou-ncesw.png" alt="linc 3.0" width="300px" class="mw-100" />
 							</a>
 						</p>
 					</div>
@@ -436,7 +445,7 @@
 							<strong>주관</strong>
 						</p>
 						<p>
-							<img src="/logo-ansi-white.png" alt="ANSI" width="200px" class="mw-100" />
+							<img src="{base}/logo-ansi-white.png" alt="ANSI" width="200px" class="mw-100" />
 						</p>
 					</div>
 					<div class="col-md-8" />
@@ -447,7 +456,7 @@
 						<p>
 							<a href="https://startlink.io" target="_blank" rel="noreferrer">
 								<img
-									src="/logo-company-startlink-white.png"
+									src="{base}/logo-company-startlink-white.png"
 									alt="linc 3.0"
 									width="200px"
 									class="mw-100"
