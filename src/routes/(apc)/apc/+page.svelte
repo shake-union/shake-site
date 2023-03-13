@@ -30,12 +30,12 @@
 			<div class="col-md-10 offset-md-1">
 				<h1 class="display-5"><strong>2022 아주대학교 프로그래밍 경시대회</strong></h1>
 				<div class="row mt-5">
-					<div class="col-md-6">
+					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>대회 일시</h2>
 						<p class="display-5"><strong>11월 13일 14:00</strong></p>
 					</div>
-					<div class="col-md-6">
+					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>접수 기간</h2>
 						<p class="display-5"><strong>11월 9일 23:59까지</strong></p>
@@ -52,10 +52,14 @@
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<button class="btn btn-danger w-100 p-3">참가 신청 종료</button>
+						<a href="{base}/apc">
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청 종료</button>
+						</a>
 					</div>
 					<div class="col-md-6">
-						<button class="btn btn-primary w-100 p-3">기출 문제</button>
+						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-cyan text-white w-100 p-3">기출 문제</button>
+						</a>
 					</div>
 				</div>
 			</div>

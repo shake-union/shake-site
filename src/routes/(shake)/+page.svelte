@@ -467,7 +467,7 @@
 							{#each shakeData as { year, problemUrl }}
 								<a href={problemUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-contest-problem w-100"
-										><strong>{year} 본선 문제</strong></button
+										><strong>{year.slice(2)} 본선 문제</strong></button
 									></a
 								>
 							{/each}
@@ -476,7 +476,7 @@
 							{#each shakeData as { year, solutionUrl }}
 								<a href={solutionUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-contest-solution w-100"
-										><strong>{year} 본선 풀이</strong></button
+										><strong>{year.slice(2)} 본선 풀이</strong></button
 									></a
 								>
 							{/each}
@@ -488,7 +488,7 @@
 							{#each apcData as { year, problemUrl }}
 								<a href={problemUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-precontest-problem w-100"
-										><strong>{year} 예선 문제</strong></button
+										><strong>{year.slice(2)} 예선 문제</strong></button
 									></a
 								>
 							{/each}
@@ -497,7 +497,7 @@
 							{#each apcData as { year, solutionUrl }}
 								<a href={solutionUrl} class="col-3 col-md-6 col-lg-4 col-xl-3"
 									><button type="button" class="btn btn-precontest-solution w-100"
-										><strong>{year} 예선 풀이</strong></button
+										><strong>{year.slice(2)} 예선 풀이</strong></button
 									></a
 								>
 							{/each}
