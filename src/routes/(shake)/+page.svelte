@@ -3,6 +3,7 @@
 
 	import shakeData from '../../shake-data.csv';
 	import apcData from '../../apc-data.csv';
+	import { universities } from '../../lib/univs';
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
@@ -75,7 +76,7 @@
 
 <section id="about" class="">
 	<div class="container py-4">
-		<div class="row py-5">
+		<div class="row py-5 gy-5">
 			<div class="col-md-3 offset-md-1">
 				<div style="height: 2px; width: 30px; background: #EF544D;" class="mb-4" />
 				<h2 class="">대회 소개</h2>
@@ -219,191 +220,50 @@
 				</p>
 				<div class="">
 					<ul class="nav nav-tabs nav-tabs-apply" role="tablist">
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-ajou-tab"
-								aria-current="page"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-ajou"
-								class="nav-link active">아주대</button
-							>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-khee-tab"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-khee"
-								class="nav-link">경희대</button
-							>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-skku-tab"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-skku"
-								class="nav-link">성균관대</button
-							>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-inha-tab"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-inha"
-								class="nav-link">인하대</button
-							>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-krar-tab"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-krar"
-								class="nav-link">항공대</button
-							>
-						</li>
-						<li class="nav-item" role="presentation">
-							<button
-								id="pre-hyer-tab"
-								role="tab"
-								type="button"
-								data-bs-toggle="tab"
-								data-bs-target="#pre-hyer"
-								class="nav-link">한양ERICA</button
-							>
-						</li>
+						{#each universities as univ, i}
+							<li class="nav-item" role="presentation">
+								<button
+									id="pre-{univ.id}-tab"
+									role="tab"
+									type="button"
+									data-bs-toggle="tab"
+									data-bs-target="#pre-{univ.id}"
+									class="nav-link"
+									class:active={i === 0}>{univ.shortname}</button
+								>
+							</li>
+						{/each}
 					</ul>
 					<div class="tab-content small mt-3">
-						<div id="pre-ajou" role="tabpanel" class="tab-pane show active" tabindex="0">
-							<p>
-								<strong>아주대학교</strong>는
-								<strong>2022 아주대학교 프로그래밍 경시대회 (APC)</strong>를 자체 선발전으로 진행,
-								최대 10명의 학교 대표를 선발합니다.
-							</p>
+						{#each universities as univ, i}
+							<div
+								id="pre-{univ.id}"
+								role="tabpanel"
+								class="tab-pane"
+								class:show={i === 0}
+								class:active={i === 0}
+								tabindex="0"
+							>
+								<svelte:component this={univ.component} />
 
-							<p>
-								<a href="{base}/apc">
-									<button class="btn btn-shake-primary text-white"
-										>아주대학교 선발전 바로가기</button
-									>
-								</a>
-							</p>
-
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 11. 13.</div>
+								<div class="row">
+									<div class="col-4"><strong>선발전 일정</strong></div>
+									<div class="col-8">{univ.precontestDate}</div>
+								</div>
+								<div class="row">
+									<div class="col-4"><strong>선발전 주최</strong></div>
+									<div class="col-8">{univ.host}</div>
+								</div>
+								<div class="row">
+									<div class="col-4"><strong>선발전 주관</strong></div>
+									<div class="col-8">{univ.organizerAffiliation} {univ.organizerName}</div>
+								</div>
+								<div class="row">
+									<div class="col-4"><strong>주관 대표</strong></div>
+									<div class="col-8">{univ.organizerRepresentative}</div>
+								</div>
 							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">알고리즘 소학회 A.N.S.I.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">심지수 010-3029-1203</div>
-							</div>
-						</div>
-						<div id="pre-khee" role="tabpanel" class="tab-pane" tabindex="0">
-							<p>
-								<strong>경희대학교</strong>는
-								<strong>2022 경희대학교 봄 프로그래밍 경시대회</strong>를 자체 선발전으로 진행, 최대
-								10명의 학교대표를 선발합니다.
-							</p>
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 05. 14.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">경희대학교 컴퓨터공학부 학생회</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">박민재 010-2351-7847</div>
-							</div>
-						</div>
-						<div id="pre-skku" role="tabpanel" class="tab-pane" tabindex="0">
-							<p>
-								<strong>성균관대학교</strong>는 <strong>2022 shake! 성균관대학교 선발전</strong>을
-								통해 10명의 학교대표를 선발합니다.
-							</p>
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 11. 13.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">알고리즘 동아리 NPC</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">안우솔 010-4261-0125</div>
-							</div>
-						</div>
-						<div id="pre-inha" role="tabpanel" class="tab-pane" tabindex="0">
-							<p>
-								<strong>인하대학교</strong>는
-								<strong>2022 인하대학교 프로그래밍 경시대회 (IUPC)</strong>를 자체 선발전으로 진행,
-								9명의 학교대표를 선발합니다. 2명의 선발전 출제진이 추가 학교대표로 선발됩니다.
-							</p>
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 05. 21.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">인하대학교 컴퓨터공학 학술소모임 C.T.P.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">주도현 010-5092-3475</div>
-							</div>
-						</div>
-						<div id="pre-krar" role="tabpanel" class="tab-pane" tabindex="0">
-							<p>
-								<strong>한국항공대학교</strong>는
-								<strong>2022 제 2회 한국항공대학교 프로그래밍 경시대회 (KAUPC)</strong>을 통해
-								10명의 학교대표를 선발합니다.
-							</p>
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 09. 17.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">항공대학교 소프트웨어학과 알고리즘 학회 Koala</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">천수환 010-7237-7616</div>
-							</div>
-						</div>
-						<div id="pre-hyer" role="tabpanel" class="tab-pane" tabindex="0">
-							<p>
-								<strong>한양대학교 ERICA</strong>는
-								<strong>ZOAC(Zero One Algorithm Contest 2022) 대회</strong>를 자체 선발전으로 진행,
-								최대 10명의 학교대표를 선발합니다.
-							</p>
-							<div class="row">
-								<div class="col-4"><strong>선발전 일정</strong></div>
-								<div class="col-8">2022. 12. 22.</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>선발전 주관처</strong></div>
-								<div class="col-8">알고리즘 학회 0&1</div>
-							</div>
-							<div class="row">
-								<div class="col-4"><strong>주관 대표</strong></div>
-								<div class="col-8">윤병서 010-4532-2751</div>
-							</div>
-						</div>
+						{/each}
 					</div>
 				</div>
 			</div>

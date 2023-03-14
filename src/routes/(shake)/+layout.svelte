@@ -1,5 +1,7 @@
 <script>
 	import { base } from '$app/paths';
+
+	import { universities } from '../../lib/univs';
 </script>
 
 <svelte:head>
@@ -181,12 +183,13 @@
 					<div class="col-md-4">
 						<h5><strong>주관</strong></h5>
 						<p>
-							아주대학교 알고리즘 소학회 <strong>A.N.S.I.</strong>
-							<br />경희대학교 컴퓨터공학부 학생회
-							<br />성균관대학교 알고리즘 동아리 <strong>NPC</strong>
-							<br />인하대학교 컴퓨터공학 학술소모임 <strong>CTP</strong>
-							<br />한국항공대학교 알고리즘 학회 <strong>koala</strong>
-							<br />한양대학교 ERICA 알고리즘 학회 <strong>0&1</strong>
+							{#each universities as univ}
+								{univ.organizerAffiliation}
+								<strong>
+									{univ.organizerName}
+								</strong>
+								<br />
+							{/each}
 						</p>
 					</div>
 					<div class="col-md-4">
@@ -235,7 +238,7 @@
 		</div>
 		<hr class="my-0" />
 		<div class="row my-5">
-			<div class="col text-center">
+			<div class="col text-center small">
 				<!--
 					Origianlly developed by waps12b at 2015 (waps12b@naver.com)
         			Originally designed by garam at 2015 (http://gar.am)
@@ -243,6 +246,16 @@
 					Maintained by rlj1202 since 2023 (rlj1202@gmail.com)
 				-->
 				<p><i class="bi bi-c-circle" /> shake! 2015-2023</p>
+				<p>
+					Refactored and maintained by <a
+						href="https://github.com/rlj1202"
+						target="_blank"
+						rel="noreferrer">rlj1202</a
+					>
+					at 2023 using
+					<a href="https://kit.svelte.dev/" target="_blank" rel="noreferrer">SvelteKit</a>
+					(<a href="mailto:rlj1202@gmail.com">rlj1202@gmail.com</a>)
+				</p>
 			</div>
 		</div>
 	</div>
