@@ -166,14 +166,26 @@
 								<h5><strong>주최</strong></h5>
 								<div class="row gy-3">
 									<div class="col-12">
-										<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-ajou-linc3.0.png" alt="linc 3.0" class="w-100" />
-										</a>
+										<div class="ratio" style="--bs-aspect-ratio: 14%;">
+											<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
+												<img
+													src="{base}/logo-ajou-linc3.0-black.png"
+													alt="LINC 3.0"
+													class="h-100"
+												/>
+											</a>
+										</div>
 									</div>
 									<div class="col-12">
-										<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-ajou-ncesw.png" alt="linc 3.0" class="w-100" />
-										</a>
+										<div class="ratio" style="--bs-aspect-ratio: 14%;">
+											<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
+												<img
+													src="{base}/logo-ajou-ncesw-black.png"
+													alt="SW중심대학사업단"
+													class="h-100"
+												/>
+											</a>
+										</div>
 									</div>
 								</div>
 							</div>
