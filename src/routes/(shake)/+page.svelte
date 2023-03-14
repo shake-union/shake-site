@@ -244,7 +244,7 @@
 								class:active={i === 0}
 								tabindex="0"
 							>
-								<svelte:component this={univ.component} />
+								<svelte:component this={univ.component} {univ} />
 
 								<div class="row">
 									<div class="col-4"><strong>선발전 일정</strong></div>

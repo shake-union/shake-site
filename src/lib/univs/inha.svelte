@@ -1,5 +1,10 @@
+<script lang="ts">
+	import type { University } from '.';
+
+	export let univ: University;
+</script>
+
 <p>
-	<strong>인하대학교</strong>는
-	<strong>2022 인하대학교 프로그래밍 경시대회 (IUPC)</strong>를 자체 선발전으로 진행, 9명의
-	학교대표를 선발합니다. 2명의 선발전 출제진이 추가 학교대표로 선발됩니다.
+	<strong>{univ.name}</strong>는
+	<strong>{univ.precontest}</strong>를 자체 선발전으로 진행, 최대 10명의 학교대표를 선발합니다.
 </p>

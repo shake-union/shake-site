@@ -7,7 +7,7 @@ import inha from './inha.svelte';
 import krar from './krar.svelte';
 import hyer from './hyer.svelte';
 
-interface University {
+export interface University {
 	name: string;
 	shortname: string;
 	id: string;
@@ -26,7 +26,7 @@ interface University {
 	component: ComponentType;
 }
 
-const universities: University[] = [
+export const universities: University[] = [
 	{
 		name: '아주대학교',
 		shortname: '아주대',
@@ -100,5 +100,3 @@ const universities: University[] = [
 		component: hyer
 	}
 ];
-
-export { universities };
