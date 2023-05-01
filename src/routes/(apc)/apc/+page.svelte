@@ -55,8 +55,8 @@
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<a href="https://forms.gle/vT7ZxmxGhtJ9jPRC6" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-yellow text-black w-100 p-3">참가 신청 준비 중...</button>
+						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
 					</div>
 					<div class="col-md-6">
@@ -80,28 +80,20 @@
 					교내 프로그래밍 경시대회입니다. 전공 학생들에게는 실력을 검증하고 성장할 수 있는 기회가,
 					비전공 학생들에게는 보다 흥미롭게 SW의 가치를 경험하는 기회가 될 것입니다.
 				</p>
-				<p>
-					정보통신대학 및 소프트웨어융합대학 소속 학생들은 <strong>Division1</strong>에만
-					참여가능하고, 비소속 학생들은 <strong>제약 없이</strong> 참여 가능합니다. Division1, Division2
-					는 순위 및 수상이 따로 이루어집니다.
-				</p>
 				<h3>시상 내역</h3>
-				<p>
-					<strong>APC</strong> 참가자 중 수상을 하지 못한 학생들에게 추첨을 통해 1~2만원 상당의 상품을
-					증정합니다. (총 40명)
-				</p>
-				<p>외의 우수성적자 시상에 관해서는 아래를 참고해주세요.</p>
-				<p>
-					<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
-				</p>
 				<div class="row">
 					<div class="col-md-6">
 						<h5>Division 1 - Competition Round</h5>
+						<p>
+							정보통신대학 및 소프트웨어융합대학 소속 학과 재학생 및 보다 높은 수준의 대회에
+							참가하고 싶은 아주대학교 재학생이 참여 가능합니다.
+						</p>
 						<ul>
 							<li>대상: 총장상 및 상금 50만원 (1명)</li>
 							<li>최우수상: 소프트웨어융합대학장상 상금 30만원 (1명)</li>
 							<li>우수상: 소프트웨어융합대학장상 및 상금 20만원 (2명)</li>
 							<li>장려상: 소프트웨어융합대학장상 및 상금 10만원 (3명)</li>
+							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
 						<p>
 							상위 입상자에게 경인지역 6개대학 연합 프로그래밍 경시대회 <a href="{base}/"
@@ -111,15 +103,24 @@
 					</div>
 					<div class="col-md-6">
 						<h5>Division 2 - Challenge Round</h5>
+						<p>
+							정보통신대학 및 소프트웨어융합대학 소속이 아닌 학과에 속한 모든 아주대학교 재학생 및
+							정보통신대학 및 소프트웨어융합대학 소속 1학년 재학생이 참여 가능합니다.
+						</p>
 						<ul>
 							<li>대상: 총장상 및 상금 30만원 (1명)</li>
 							<li>최우수상: 소프트웨어융합대학장상 및 상금 20만원 (1명)</li>
 							<li>우수상: 소프트웨어융합대학장상 및 상금 10만원 (3명)</li>
+							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
 						<p>
-							정보통신대학 및 소프트웨어융합대학 소속 학생은 <strong>Division2</strong> 참가 불가
+							정보통신대학 및 소프트웨어융합대학 소속 학생 중 2학년 이상은 <strong>Division2</strong
+							> 참가 불가
 						</p>
 					</div>
+					<p>
+						<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -187,7 +188,7 @@
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
 						<p>
-							<strong> 팔달관 325호, 팔달관 409호 </strong>
+							<strong> 산학협력원 B103호, 422호, 623호 </strong>
 						</p>
 						<p>
 							대회 당일 명찰을 나눠드리면서 개인별로 대회장을 안내해 드릴 예정입니다. 신청 마감 후,
@@ -292,6 +293,11 @@
 							<li>
 								대회 시작 후 1시간 경과 이전까지는 대회장을 나가실 수 없습니다. 또한 대회장을 나가신
 								이후에는 더 이상의 풀이 제출은 하실 수 없습니다.
+							</li>
+							<li>
+								사전에 안내되는 언어 레퍼런스 페이지를 제외한 <strong
+									>모든 웹 페이지 접속은 금지</strong
+								>됩니다.
 							</li>
 						</ul>
 						<h5>기타</h5>
@@ -507,6 +513,30 @@
 								<img
 									src="{base}/logo-company-startlink-white.png"
 									alt="linc 3.0"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
+							<a
+								href="https://www.samsungdisplay.com/kor/index.jsp"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<img
+									src="{base}/logo-company-samsungdisplay-white.png"
+									alt="Samsung Display"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
+							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-hyundaimobis-white.png"
+									alt="Hyundai Mobis"
 									width="200px"
 									class="mw-100"
 								/>
