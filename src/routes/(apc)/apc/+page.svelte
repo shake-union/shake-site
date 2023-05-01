@@ -1,5 +1,8 @@
 <script>
 	import { base } from '$app/paths';
+
+	const year = 2023;
+	const email = 'ansi.ajou@gmail.com';
 </script>
 
 <section class="bg-light d-flex position-relative">
@@ -28,17 +31,17 @@
 	<div class="container position-relative text-white">
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
-				<h1 class="display-5"><strong>2022 아주대학교 프로그래밍 경시대회</strong></h1>
+				<h1 class="display-5"><strong>{year} 아주대학교 프로그래밍 경시대회</strong></h1>
 				<div class="row mt-5">
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>대회 일시</h2>
-						<p class="display-5"><strong>11월 13일 14:00</strong></p>
+						<p class="display-5"><strong>5월 27일 14:00</strong></p>
 					</div>
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>접수 기간</h2>
-						<p class="display-5"><strong>11월 9일 23:59까지</strong></p>
+						<p class="display-5"><strong>5월 24일 23:59까지</strong></p>
 					</div>
 				</div>
 			</div>
@@ -52,8 +55,8 @@
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<a href="{base}/apc">
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청 종료</button>
+						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
 					</div>
 					<div class="col-md-6">
@@ -77,28 +80,20 @@
 					교내 프로그래밍 경시대회입니다. 전공 학생들에게는 실력을 검증하고 성장할 수 있는 기회가,
 					비전공 학생들에게는 보다 흥미롭게 SW의 가치를 경험하는 기회가 될 것입니다.
 				</p>
-				<p>
-					정보통신대학 및 소프트웨어융합대학 소속 학생들은 <strong>Division1</strong>에만
-					참여가능하고, 비소속 학생들은 <strong>제약 없이</strong> 참여 가능합니다. Division1, Division2
-					는 순위 및 수상이 따로 이루어집니다.
-				</p>
 				<h3>시상 내역</h3>
-				<p>
-					<strong>APC</strong> 참가자 중 수상을 하지 못한 학생들에게 추첨을 통해 1~2만원 상당의 상품을
-					증정합니다. (총 40명)
-				</p>
-				<p>외의 우수성적자 시상에 관해서는 아래를 참고해주세요.</p>
-				<p>
-					<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
-				</p>
 				<div class="row">
 					<div class="col-md-6">
 						<h5>Division 1 - Competition Round</h5>
+						<p>
+							정보통신대학 및 소프트웨어융합대학 소속 학과 재학생 및 보다 높은 수준의 대회에
+							참가하고 싶은 아주대학교 재학생이 참여 가능합니다.
+						</p>
 						<ul>
-							<li>대상: 총장상 및 상금 50만원(1명)</li>
-							<li>최우수상: 소프트웨어융합대학장상 상금 30만원(1명)</li>
-							<li>우수상: 소프트웨어융합대학장상 및 상금 20만원(2명)</li>
-							<li>장려상: 소프트웨어융합대학장상 및 상금 10만원(3명)</li>
+							<li>대상: 총장상 및 상금 50만원 (1명)</li>
+							<li>최우수상: 소프트웨어융합대학장상 상금 30만원 (1명)</li>
+							<li>우수상: 소프트웨어융합대학장상 및 상금 20만원 (2명)</li>
+							<li>장려상: 소프트웨어융합대학장상 및 상금 10만원 (3명)</li>
+							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
 						<p>
 							상위 입상자에게 경인지역 6개대학 연합 프로그래밍 경시대회 <a href="{base}/"
@@ -108,15 +103,24 @@
 					</div>
 					<div class="col-md-6">
 						<h5>Division 2 - Challenge Round</h5>
+						<p>
+							정보통신대학 및 소프트웨어융합대학 소속이 아닌 학과에 속한 모든 아주대학교 재학생 및
+							정보통신대학 및 소프트웨어융합대학 소속 1학년 재학생이 참여 가능합니다.
+						</p>
 						<ul>
-							<li>대상: 총장상 및 상금 30만원(1명)</li>
-							<li>최우수상: 소프트웨어융합대학장상 및 상금 20만원(1명)</li>
-							<li>우수상: 소프트웨어융합대학장상 및 상금 10만원(3명)</li>
+							<li>대상: 총장상 및 상금 30만원 (1명)</li>
+							<li>최우수상: 소프트웨어융합대학장상 및 상금 20만원 (1명)</li>
+							<li>우수상: 소프트웨어융합대학장상 및 상금 10만원 (3명)</li>
+							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
 						<p>
-							정보통신대학 및 소프트웨어융합대학 소속 학생은 <strong>Division2</strong> 참가 불가
+							정보통신대학 및 소프트웨어융합대학 소속 학생 중 2학년 이상은 <strong>Division2</strong
+							> 참가 불가
 						</p>
 					</div>
+					<p>
+						<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
+					</p>
 				</div>
 			</div>
 		</div>
@@ -184,7 +188,7 @@
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
 						<p>
-							<strong> 팔달관 325호, 팔달관 409호 </strong>
+							<strong> 산학협력원 B103호, 422호, 623호 </strong>
 						</p>
 						<p>
 							대회 당일 명찰을 나눠드리면서 개인별로 대회장을 안내해 드릴 예정입니다. 신청 마감 후,
@@ -207,12 +211,22 @@
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
 						<h4>대회 참가 자격</h4>
-						<p>
-							<strong>2022 APC 당일 아주대학교 학생 재학생 중 아래 자격을 만족하는 누구나</strong>
-						</p>
 						<ul>
-							<li>역대 한국 대학생 프로그래밍 경시대회 수상자가 아닌 자</li>
-							<li>역대 shake! 3위 이상 수상자가 아닌 자</li>
+							<li>
+								<strong>{year} APC 당일 아주대학교에 소속된 자</strong>
+								<ul>
+									<li>휴학생은 상금 수령은 불가하나, 시상 및 shake! 출전권 획득은 가능합니다.</li>
+								</ul>
+							</li>
+							<li>
+								역대 <a href="https://ucpc.me/" target="_blank" rel="noreferrer"
+									>한국 대학생 프로그래밍 경시대회</a
+								> 수상자가 아닌 자
+							</li>
+							<li>
+								역대 <a href="https://shake.codes/" target="_blank" rel="noreferrer">shake!</a> 3위 이상
+								수상자가 아닌 자
+							</li>
 							<li>
 								역대 <strong>APC Division1</strong> 수상자는 시상에서 제외되며,
 								<strong>shake!</strong> 출전권은 획득 가능
@@ -222,9 +236,9 @@
 								가능
 							</li>
 						</ul>
-						<p>휴학생은 참가 불가능합니다.</p>
 
 						<h4>대회 주요 규칙</h4>
+						<h5>대회 진행 전</h5>
 						<ul>
 							<li>APC는 1인 1팀의 <strong>개인전</strong> 형태로 치러집니다.</li>
 							<!-- <li><strong>본 대회는 온라인으로 진행되며, 참가자 전원은 대회 시간동안 zoom 어플리케이션을 통해 본인의 모습을 생중계 해야 합니다.</strong><a href="https://drive.google.com/file/d/1aoWj-KhGFc1uaghuiDzoojZ8omad6Imo/view?usp=sharing"> (zoom을 이용한 참가 가이드)</a></li> -->
@@ -234,40 +248,80 @@
 							</li>
 							<li>
 								개인 컴퓨터에는 대회 시작 전 컴파일 할 수 있는 환경을 스스로 준비해야 합니다. IDE
-								사용에 제한은 없습니다.<br />
-								(단, 온라인 IDE를 사용할 경우 해당 코드가 공개된다면 부정행위로 간주합니다.)
+								사용에 제한은 없습니다.
+								<ul>
+									<li>
+										단, 온라인 IDE를 사용할 경우 해당 코드가 공개된다면 부정행위로 간주합니다.
+									</li>
+								</ul>
 							</li>
 							<li>
 								개인 컴퓨터와 마우스, 키보드를 제외한 <strong>모든 전자기기의 사용은 금지</strong
-								>됩니다.
+								>됩니다. 마우스와 키보드는 편하신 것으로 지참 가능합니다.
 							</li>
+							<li>
+								소프트 카피<sup>인쇄되지 않은 디지털 문서 파일</sup>는
+								<strong>허용되지 않습니다.</strong>
+							</li>
+							<li>
+								하드 카피<sup>물리적으로 인쇄된 문서</sup>는 허용되며 앞, 뒷면 상관 없이
+								<strong>최대 25장</strong>
+								까지 가능합니다. 사전에 인쇄해서 대회 당일 가져오신 후 스태프에게 검사를 맡은 후 사용해
+								주시면 됩니다.
+								<ul>
+									<li>
+										지참 가능한 인쇄물의 예시는 다음 링크에서 참고하실 수 있습니다:
+										<a
+											href="https://www.acmicpc.net/board/view/21870"
+											target="_blank"
+											rel="noreferrer">https://www.acmicpc.net/board/view/21870</a
+										>
+									</li>
+								</ul>
+							</li>
+							<!-- <li>하드카피, 소프트카피는 허용되지 않습니다.</li> -->
+							<!-- <li>하드카피, 소프트카피의 사용이 허용됩니다. 단, 하드카피 및 소프트카피 사용 시 참조한 자료 정보의 출처를 주석으로 처리하여 코드에 적어야 합니다.</li> -->
+						</ul>
+						<h5>대회 진행 중</h5>
+						<ul>
 							<li>
 								타인과 의견을 주고받을 수 있는 <strong>모든 메신저의 사용은 금지</strong>됩니다.
 							</li>
 							<li>
 								대회가 진행되는 동안 타인 간에 의사소통, 자료 공유 등의 모든 행위는 금지됩니다.
 							</li>
-							<li>하드카피, 소프트카피는 허용되지 않습니다.</li>
-							<!-- <li>하드카피, 소프트카피의 사용이 허용됩니다. 단, 하드카피 및 소프트카피 사용 시 참조한 자료 정보의 출처를 주석으로 처리하여 코드에 적어야 합니다.</li> -->
+							<li>
+								대회 시작 후 1시간 경과 이전까지는 대회장을 나가실 수 없습니다. 또한 대회장을 나가신
+								이후에는 더 이상의 풀이 제출은 하실 수 없습니다.
+							</li>
+							<li>
+								사전에 안내되는 언어 레퍼런스 페이지를 제외한 <strong
+									>모든 웹 페이지 접속은 금지</strong
+								>됩니다.
+							</li>
+						</ul>
+						<h5>기타</h5>
+						<ul>
 							<li>
 								본인의 아이디와 패스워드를 타인에게 공개하거나 온/오프라인 상에서 공개하는 행위는
 								부정행위로 간주합니다.
 							</li>
 							<li>모든 부정행위자는 실격 처리 되며, 그 결과를 각 학과에 통보합니다.</li>
 							<li>
-								기타 문의사항에 대해서는 주관처(<a href="mailto:ansi.ajou@gmail.com"
-									>ansi.ajou@gmail.com</a
-								>)로 문의해주세요.
-							</li>
-							<li>문제의 모든 지문은 <strong>한국어</strong>로만 제공됩니다.</li>
-							<li>
-								대회 시작 후 1시간 경과 이전까지는 대회장을 나가실 수 없습니다. 또한 대회장을 나가신
-								이후에는 더 이상의 풀이 제출은 하실 수 없습니다.
+								참가 신청 후 별도의 통보 없이 대회장에 미참석 하는 경우 불이익이 있을 수 있습니다.
+								<ul>
+									<li>
+										만일 피치 못할 사정으로 대회 당일 참석하지 못할 경우 사전에 주관처(<a
+											href="mailto:{email}">{email}</a
+										>) 혹은 기타 운영진을 통해 연락 부탁드립니다.
+									</li>
+								</ul>
 							</li>
 						</ul>
 
 						<h4>대회 진행 방식</h4>
 						<ul>
+							<li>문제의 모든 지문은 <strong>한국어</strong>로만 제공됩니다.</li>
 							<li>참가자는 각 문제에 대한 해답을 작성하는 소스코드를 제출합니다.</li>
 							<li>
 								사용가능한 프로그래밍 언어는 <strong>C/C++, Java, Python2,3</strong>로 제한됩니다.
@@ -459,6 +513,30 @@
 								<img
 									src="{base}/logo-company-startlink-white.png"
 									alt="linc 3.0"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
+							<a
+								href="https://www.samsungdisplay.com/kor/index.jsp"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<img
+									src="{base}/logo-company-samsungdisplay-white.png"
+									alt="Samsung Display"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
+							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-hyundaimobis-white.png"
+									alt="Hyundai Mobis"
 									width="200px"
 									class="mw-100"
 								/>
