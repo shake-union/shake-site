@@ -75,7 +75,7 @@
 		href="{base}/images/favicons/apc/favicon-128x128.png"
 		sizes="128x128"
 	/>
-	<meta name="application-name" content="2022 APC" />
+	<meta name="application-name" content="2023 APC" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="{base}/images/favicons/apc/mstile-144x144.png" />
 	<meta
@@ -95,14 +95,14 @@
 		content="{base}/images/favicons/apc/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/apc-2022.png" />
-	<meta property="og:title" content="제12회 아주대학교 프로그래밍 경시대회가 열립니다!" />
+	<meta property="og:image" content="{base}/images/og/apc-2023.png" />
+	<meta property="og:title" content="2023년 제13회 아주대학교 프로그래밍 경시대회가 열립니다!" />
 	<meta property="og:url" content="{base}/apc" />
-	<meta property="og:site_name" content="2022 APC" />
+	<meta property="og:site_name" content="2023 APC" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="2022년 11월 13일, 제12회 Ajou Programming Contest가 개최됩니다."
+		content="2023년 5월 27일, 제13회 Ajou Programming Contest가 개최됩니다."
 	/>
 </svelte:head>
 
