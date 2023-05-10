@@ -60,6 +60,7 @@
 						(2023-05-08)
 					</li>
 					<li>대회 일정에 후원사 홍보 일정이 추가되었습니다. (2023-05-08)</li>
+					<li>시상 내역에 3등 MORAI 기업 후원상이 추가되었습니다. (2023-05-10)</li>
 				</ol>
 			</div>
 		</div>
@@ -146,6 +147,7 @@
 						<ul>
 							<li>대상: 총장상 및 상금 50만원 (1명)</li>
 							<li>최우수상: SW중심대학사업단장상 및 상금 30만원 (1명)</li>
+							<li>3등 MORAI 특별상: MORAI 후원상 및 상금 25만원 (1명)</li>
 							<li>우수상: SW중심대학사업단장상 및 상금 20만원 (2명)</li>
 							<li>장려상: SW중심대학사업단장상 및 상금 10만원 (3명)</li>
 							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
@@ -165,6 +167,7 @@
 						<ul>
 							<li>대상: 총장상 및 상금 30만원 (1명)</li>
 							<li>최우수상: SW중심대학사업단장상 및 상금 20만원 (1명)</li>
+							<li>3등 MORAI 특별상: MORAI 후원상 및 상금 15만원 (1명)</li>
 							<li>우수상: SW중심대학사업단장상 및 상금 10만원 (3명)</li>
 							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
@@ -573,6 +576,16 @@
 								<img
 									src="{base}/logo-company-startlink-white.png"
 									alt="linc 3.0"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
+							<a href="https://www.morai.ai/ko" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-morai-white.png"
+									alt="MORAI"
 									width="200px"
 									class="mw-100"
 								/>
