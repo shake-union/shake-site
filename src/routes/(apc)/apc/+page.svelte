@@ -179,6 +179,12 @@
 					<p>
 						<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
 					</p>
+					<p>
+						<strong
+							>* Division 1, Division 2 참가 가능 여부는 "제1전공"을 기준으로 합니다. (학사서비스 ⇒
+							학적 기본 조회 ⇒ 전공 ⇒ 제1전공)</strong
+						>
+					</p>
 				</div>
 			</div>
 		</div>
