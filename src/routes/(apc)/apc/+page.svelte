@@ -446,9 +446,9 @@
 							모든 채점은 <a href="https://startlink.io/">Startlink</a>의
 							<a href="https://www.acmicpc.net">백준 온라인 저지</a>
 							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있습니다.<br />
-							언어마다 다른 채점기준이 적용되며, 각 언어별 컴파일 및 실행 옵션, 버전, 채점기준은 아래와
-							같습니다.<br />
-							C, C++ 에서의 제한은 각 문제에 명시된 제한(기본값) 를 따릅니다.
+							언어마다 다른 채점기준이 적용되며, 각 언어별 컴파일 및 실행 옵션, 버전, 채점기준, 언어별
+							예제 등의 자세한 사항은 <a href="https://www.acmicpc.net/help/language">여기</a>에서
+							확인 바랍니다.
 						</p>
 						<table class="table">
 							<thead>
@@ -480,10 +480,6 @@
 								</tr>
 							</tbody>
 						</table>
-						<p>
-							언어별 예제 등의 자세한 사항은 <a href="https://www.acmicpc.net/help/language">여기</a
-							>에서 확인 바랍니다.
-						</p>
 					</div>
 				</div>
 			</div>
