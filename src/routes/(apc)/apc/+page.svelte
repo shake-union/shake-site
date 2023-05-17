@@ -61,6 +61,7 @@
 					</li>
 					<li>대회 일정에 후원사 홍보 일정이 추가되었습니다. (2023-05-08)</li>
 					<li>시상 내역에 3등 MORAI 기업 후원상이 추가되었습니다. (2023-05-10)</li>
+					<li>dSPACE 후원사가 추가되었습니다. (2023-05-17)</li>
 				</ol>
 			</div>
 		</div>
@@ -448,78 +449,36 @@
 							같습니다.<br />
 							C, C++ 에서의 제한은 각 문제에 명시된 제한(기본값) 를 따릅니다.
 						</p>
-						<ul class="list-group mb-3">
-							<li class="list-group-item">
-								<strong>C</strong>
-								<ul>
-									<li>
-										컴파일: gcc Main.c -o Main -O2 -Wall -lm -static -std=c99 -DONLINE_JUDGE -DBOJ
-									</li>
-									<li>실행: ./Main</li>
-									<li>버전: gcc (GCC) 10.2.0</li>
-									<li>시간 제한: 기본값</li>
-									<li>메모리 제한: 기본값</li>
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<strong>C++11</strong>
-								<ul>
-									<li>
-										컴파일: g++ Main.cc -o Main -O2 -Wall -lm -static -std=gnu++11 -DONLINE_JUDGE
-										-DBOJ
-									</li>
-									<li>실행: ./Main</li>
-									<li>버전: g++ (GCC) 10.2.0</li>
-									<li>시간 제한: 기본값</li>
-									<li>메모리 제한: 기본값</li>
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<strong>C++17</strong>
-								<ul>
-									<li>
-										컴파일: g++ Main.cc -o Main -O2 -Wall -lm -static -std=gnu++17 -DONLINE_JUDGE
-										-DBOJ
-									</li>
-									<li>실행: ./Main</li>
-									<li>버전: g++ (GCC) 10.2.0</li>
-									<li>시간 제한: 기본값</li>
-									<li>메모리 제한: 기본값</li>
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<strong>Java</strong>
-								<ul>
-									<li>
-										컴파일: javac -J-Xms1024m -J-Xmx1024m -J-Xss512m -encoding UTF-8 Main.java
-									</li>
-									<li>실행: java -Xms1024m -Xmx1024m -Xss512m -Dfile.encoding=UTF-8 Main</li>
-									<li>버전: Java(TM) SE Runtime Environment (build 1.8.0_191-b12)</li>
-									<li>시간 제한: 기본값×2+1초</li>
-									<li>메모리 제한: 기본값×2+16MB</li>
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<strong>Python2</strong>
-								<ul>
-									<li>컴파일: python -c "import py_compile; py_compile.compile(r'Main.py')"</li>
-									<li>실행: python Main.py</li>
-									<li>버전: Python 2.7.18</li>
-									<li>시간 제한: 기본값×3+2초</li>
-									<li>메모리 제한: 기본값×2+32MB</li>
-								</ul>
-							</li>
-							<li class="list-group-item">
-								<strong>Python3</strong>
-								<ul>
-									<li>컴파일: python3 -c "import py_compile; py_compile.compile(r'Main.py')"</li>
-									<li>실행: python3 Main.py</li>
-									<li>버전: Python 3.8.2</li>
-									<li>시간 제한: 기본값×3+2초</li>
-									<li>메모리 제한: 기본값×2+32MB</li>
-								</ul>
-							</li>
-						</ul>
+						<table class="table">
+							<thead>
+								<tr>
+									<th>언어</th>
+									<th>버전</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>C11</td>
+									<td>gcc (GCC) 11.1.0</td>
+								</tr>
+								<tr>
+									<td>C++17</td>
+									<td>g++ (GCC) 11.1.0</td>
+								</tr>
+								<tr>
+									<td>Java 8</td>
+									<td>Java(TM) SE Runtime Environment (build 1.8.0_201-b09)</td>
+								</tr>
+								<tr>
+									<td>Python3</td>
+									<td>Python 3.11.0</td>
+								</tr>
+								<tr>
+									<td>PyPy3</td>
+									<td>Python 3.9.12, PyPy 7.3.9 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)</td>
+								</tr>
+							</tbody>
+						</table>
 						<p>
 							언어별 예제 등의 자세한 사항은 <a href="https://www.acmicpc.net/help/language">여기</a
 							>에서 확인 바랍니다.
