@@ -588,6 +588,16 @@
 							</a>
 						</p>
 						<p>
+							<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-dspace.png"
+									alt="dSPACE"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+						<p>
 							<a href="https://www.morai.ai/ko" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-morai-white.png"
