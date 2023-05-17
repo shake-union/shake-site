@@ -369,6 +369,28 @@
 								사전에 안내되는 언어 레퍼런스 페이지를 제외한 <strong
 									>모든 웹 페이지 접속은 금지</strong
 								>됩니다.
+								<ul>
+									<li>
+										<strong>C/C++</strong> -
+										<a href="https://en.cppreference.com/w/" target="_blank" rel="noreferrer"
+											>https://en.cppreference.com/w/</a
+										>
+									</li>
+									<li>
+										<strong>Java</strong> -
+										<a
+											href="https://docs.oracle.com/javase/8/docs/api/"
+											target="_blank"
+											rel="noreferrer">https://docs.oracle.com/javase/8/docs/api/</a
+										>
+									</li>
+									<li>
+										<strong>Python</strong> -
+										<a href="https://docs.python.org/3/" target="_blank" rel="noreferrer"
+											>https://docs.python.org/3/</a
+										>
+									</li>
+								</ul>
 							</li>
 						</ul>
 						<h5>기타</h5>
