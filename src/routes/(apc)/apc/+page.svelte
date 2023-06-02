@@ -113,8 +113,11 @@
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+						<!-- <a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
+						</a> -->
+						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-red text-white w-100 p-3">대회가 종료되었습니다</button>
 						</a>
 					</div>
 					<div class="col-md-6">

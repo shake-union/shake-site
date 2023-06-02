@@ -129,19 +129,19 @@
 						<ul class="navbar-nav">
 							<li class="nav-item">
 								<a
-									href="https://www.acmicpc.net/contest/board/900"
-									class="text-dark text-decoration-none nav-link">2022 Div1 결과 보기</a
+									href="https://www.acmicpc.net/contest/board/1011"
+									class="text-dark text-decoration-none nav-link">2023 Div1 결과 보기</a
 								>
 							</li>
 							<li class="nav-item">
 								<a
-									href="https://www.acmicpc.net/contest/board/901"
-									class="text-dark text-decoration-none nav-link">2022 Div2 결과 보기</a
+									href="https://www.acmicpc.net/contest/board/1018"
+									class="text-dark text-decoration-none nav-link">2023 Div2 결과 보기</a
 								>
 							</li>
 							<li class="nav-item">
 								<a
-									href="https://drive.google.com/file/d/15QyNVeBW4hy7bv6xXqEhKBUymWAm8gWn/view?usp=sharing"
+									href="https://drive.google.com/file/d/1YXBQSoeDSG_NtMPRa4xs3zIN11USggvL/view?usp=sharing"
 									class="text-dark text-decoration-none nav-link">풀이 슬라이드</a
 								>
 							</li>
