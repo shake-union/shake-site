@@ -257,7 +257,7 @@
 					Refactored by rlj1202 at 2023 using SvelteKit (rlj1202@gmail.com)
 					Maintained by rlj1202 since 2023 (rlj1202@gmail.com)
 				-->
-				<p><i class="bi bi-c-circle" /> shake! 2015-2023</p>
+				<p><i class="bi bi-c-circle" /> shake! 2015-{new Date().getFullYear()}</p>
 				<p>
 					Refactored and maintained by <a
 						href="https://github.com/rlj1202"
