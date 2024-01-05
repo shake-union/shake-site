@@ -77,7 +77,7 @@
 		href="{base}/images/favicons/shake/favicon-128x128.png"
 		sizes="128x128"
 	/>
-	<meta name="application-name" content="shake! 2022" />
+	<meta name="application-name" content="shake! 2023" />
 	<meta name="msapplication-TileColor" content="#FFFFFF" />
 	<meta name="msapplication-TileImage" content="{base}/images/favicons/shake/mstile-144x144.png" />
 	<meta
@@ -97,14 +97,14 @@
 		content="{base}/images/favicons/shake/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/shake-2022.png" />
-	<meta property="og:title" content="2022 경인지역 6개대학 연합 프로그래밍 경시대회 shake!" />
+	<meta property="og:image" content="{base}/images/og/shake-2023.png" />
+	<meta property="og:title" content="2023 경인지역 6개대학 연합 프로그래밍 경시대회 shake!" />
 	<meta property="og:url" content="{base}/" />
-	<meta property="og:site_name" content="shake! 2022" />
+	<meta property="og:site_name" content="shake! 2023" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="아주대학교, 경희대학교, 성균관대학교, 인하대학교, 한국항공대학교, 한양대학교 ERICA의 학교 대표들이 모여 함께하는 교류의 장, 2022 shake!"
+		content="아주대학교, 경희대학교, 성균관대학교, 인하대학교, 한국항공대학교, 한양대학교 ERICA의 학교 대표들이 모여 함께하는 교류의 장, 2023 shake!"
 	/>
 </svelte:head>
 
@@ -210,8 +210,8 @@
 								<h5><strong>후원</strong></h5>
 								<div class="row gy-3">
 									<div class="col-12">
-										<a href="https://www.moloco.com/ko" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-company-moloco.png" alt="Moloco" class="w-100" />
+										<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-dspace.png" alt="dSPACE" class="w-100" />
 										</a>
 									</div>
 									<div class="col-12">
@@ -220,8 +220,18 @@
 										</a>
 									</div>
 									<div class="col-12">
+										<a href="https://www.moloco.com/ko" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-moloco.png" alt="Moloco" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
+										<a href="https://solved.ac/" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-solvedac-black.png" alt="solved.ac" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
 										<a href="https://startlink.io" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-company-startlink.png" alt="linc 3.0" class="w-100" />
+											<img src="{base}/logo-company-startlink.png" alt="Startlink" class="w-100" />
 										</a>
 									</div>
 								</div>
