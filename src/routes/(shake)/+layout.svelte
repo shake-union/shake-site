@@ -210,8 +210,8 @@
 								<h5><strong>후원</strong></h5>
 								<div class="row gy-3">
 									<div class="col-12">
-										<a href="https://www.moloco.com/ko" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-company-moloco.png" alt="Moloco" class="w-100" />
+										<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-dspace.png" alt="dSPACE" class="w-100" />
 										</a>
 									</div>
 									<div class="col-12">
@@ -220,8 +220,18 @@
 										</a>
 									</div>
 									<div class="col-12">
+										<a href="https://www.moloco.com/ko" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-moloco.png" alt="Moloco" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
+										<a href="https://solved.ac/" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-solvedac-black.png" alt="solved.ac" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
 										<a href="https://startlink.io" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-company-startlink.png" alt="linc 3.0" class="w-100" />
+											<img src="{base}/logo-company-startlink.png" alt="Startlink" class="w-100" />
 										</a>
 									</div>
 								</div>
