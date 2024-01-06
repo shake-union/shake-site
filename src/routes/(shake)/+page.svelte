@@ -415,7 +415,7 @@
 						</p>
 						<ul>
 							<li>각 학교 선발전을 통해 정당하게 선출된 자</li>
-							<li>2023년 1, 2학기 기준 해당 학교 1학기 이상 재학한 자</li>
+							<li>2023년 2학기 기준 해당 학교 재학 상태인 자</li>
 							<li>
 								역대 <strong
 									><a href="https://ucpc.me/" target="_blank" rel="noreferrer"
@@ -433,12 +433,10 @@
 							<li><string>shake!</string>는 1인 1팀의 개인전 형태로 치러진다.</li>
 							<li>대회에 사용할 컴퓨터는 개인 지참해야 하며, 1인당 1대의 컴퓨터만 허용된다.</li>
 							<li>
-								대회는 10명 단위로 <strong>ZOOM</strong>에 접속하여 <strong>웹캠</strong>을 공유한
-								채로 진행된다.
+								레퍼런스 사이트 이외의 모든 소프트카피를 금지한다.
 							</li>
 							<li>
-								하드카피, 소프트카피의 사용이 가능하며, 사용 시 참조한 자료 정보의 출처를 주석으로
-								처리하여 코드에 작성한다.
+								A4크기, 25장의 단면 인쇄된 하드카피를 허용한다.
 							</li>
 							<li>참가자는 각 문제에 대한 해답을 작성하는 소스코드를 제출한다.</li>
 							<li>
@@ -499,11 +497,18 @@
 							>의
 							<a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a
 							>
-							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있습니다.<br />
+							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있습니다. <a href="https://help.acmicpc.net/judge/info" target="_blank" rel="noreferrer">여기</a
+							>에서 상세한 정보를 확인할 수 있습니다.
+							
+							<!--
+							<br />
 							언어마다 다른 채점기준이 적용되며, 각 언어별 컴파일 및 실행 옵션, 버전, 채점기준은 아래와
 							같습니다.<br />
 							C, C++ 에서의 제한은 각 문제에 명시된 제한(기본값) 를 따릅니다.
+							-->
+
 						</p>
+						<!--
 						<ul class="list-group mb-3">
 							<li class="list-group-item">
 								<strong>C</strong>
@@ -576,6 +581,7 @@
 								</ul>
 							</li>
 						</ul>
+						-->
 						<p>
 							언어별 예제 등의 자세한 사항은 <a
 								href="https://www.acmicpc.net/help/language"
