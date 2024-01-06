@@ -470,15 +470,15 @@
 						</ul>
 						<h3>순위 결정 방식</h3>
 						<ul>
-							<li>각 참가자는 정답 판정을 받은 문제 개수와 패널티를 가집니다.</li>
+							<li>각 참가자는 정답 판정을 받은 문제 개수와 패널티를 가진다.</li>
 							<li>
 								참가자가 각 문제에 대해 최초 정답 판정을 받을 때 패널티에 <strong
 									>((정답 제 출 시각 – 대회 시작 시각) + (해당 문제 제출 횟수 – 1) * 20)</strong
-								>의 시간이 가산됩니다.
+								>의 시간이 가산된다.
 							</li>
 							<li>
 								순위는 아래 조건을 순차적으로 적용했을 때, 상위에 있는 조건을 먼저 만족한 참가자가
-								더 높은 순위를 가집니다.
+								더 높은 순위를 가진다.
 							</li>
 						</ul>
 						<div class="row">
@@ -497,8 +497,8 @@
 							>의
 							<a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a
 							>
-							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있습니다. <a href="https://help.acmicpc.net/judge/info" target="_blank" rel="noreferrer">여기</a
-							>에서 상세한 정보를 확인할 수 있습니다.
+							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있다. <a href="https://help.acmicpc.net/judge/info" target="_blank" rel="noreferrer">여기</a
+							>에서 상세한 정보를 확인할 수 있다.
 							
 							<!--
 							<br />
@@ -581,7 +581,7 @@
 								</ul>
 							</li>
 						</ul>
-						-->
+						
 						<p>
 							언어별 예제 등의 자세한 사항은 <a
 								href="https://www.acmicpc.net/help/language"
@@ -589,6 +589,8 @@
 								rel="noreferrer">여기</a
 							>에서 확인 바랍니다.
 						</p>
+
+						-->
 					</div>
 				</div>
 			</div>
