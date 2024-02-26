@@ -39,8 +39,8 @@
 				</h1>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="{base}/results/2022" class="btn btn-punch shadow-sm btn-shake-primary text-light"
-						>2022 결과</a
+					<a href="{base}/results/2023" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+						>2023 결과</a
 					>
 				</div>
 			</div>
