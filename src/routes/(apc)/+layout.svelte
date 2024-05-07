@@ -95,14 +95,14 @@
 		content="{base}/images/favicons/apc/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/apc-2023.png" />
-	<meta property="og:title" content="2023년 제13회 아주대학교 프로그래밍 경시대회가 열립니다!" />
+	<meta property="og:image" content="{base}/images/og/apc-2024.png" />
+	<meta property="og:title" content="2024년 제14회 아주대학교 프로그래밍 경시대회가 열립니다!" />
 	<meta property="og:url" content="{base}/apc" />
-	<meta property="og:site_name" content="2023 APC" />
+	<meta property="og:site_name" content="2024 APC" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="2023년 5월 27일, 제13회 Ajou Programming Contest가 개최됩니다."
+		content="2024년 5월 25일, 제14회 Ajou Programming Contest가 개최됩니다."
 	/>
 </svelte:head>
 
@@ -125,7 +125,7 @@
 					>
 						<span class="navbar-toggler-icon" />
 					</button>
-					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+					<!-- <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
 						<ul class="navbar-nav">
 							<li class="nav-item">
 								<a
@@ -146,7 +146,7 @@
 								>
 							</li>
 						</ul>
-					</div>
+					</div> -->
 				</nav>
 			</div>
 		</div>

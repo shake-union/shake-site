@@ -5,7 +5,7 @@
 	const email = 'ansi.ajou@gmail.com';
 </script>
 
-<section class="bg-light d-flex position-relative">
+<!-- <section class="bg-light d-flex position-relative">
 	<video
 		class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover"
 		playsinline
@@ -15,23 +15,62 @@
 	>
 		<source src="{base}/bg-main.mp4" type="video/mp4" />
 	</video>
+	<img class="position-absolute start-0 top-0 w-100 h-100 object-fit-cover" src="{base}/background.png" alt="apc_background"/>
+
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
-		style="background-color: rgba(255, 255, 255, 0.5);"
+		style="background-color: rgba(255, 255, 255, 0.0);"
 	/>
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
-		style="background-color: rgba(35, 230, 190, 0.4);"
+		style="background-color: rgba(230, 129, 30, 0.4);"
 	/>
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
-		style="background-color: rgba(0, 0, 0, 0.5);"
+		style="background-color: rgba(0, 0, 0, 0.1);"
 	/>
 
 	<div class="container position-relative text-white">
+		<div class="container">
+			<div class="row my-7">
+				<div class="col-md-10 offset-md-1">
+					<div class="row mt-5">
+						<div class="col-6">
+							<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
+							<h2>대회 일시</h2>
+							<p class="display-5"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+							<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
+								<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
+							</a>
+						</div>
+						<div class="col-6">
+							<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
+							<h2>접수 기간</h2>
+							<p class="display-5"><strong>5월 22일(수) 23시 59분</strong></p>
+	
+							<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
+								<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> -->
+
+<div class="title_image">
+    <div class="t_img">
+		<img src="{base}/background.png" alt="apc_background"/>
+    </div>
+</div>
+
+<section class="">
+	<!-- <div class="container position-relative text-white"> -->
+	<div class="container">
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
-				<h1 class="display-5"><strong>{year} 아주대학교 프로그래밍 경시대회</strong></h1>
+				<!-- <h1 class="display-5"><strong>{year} 아주대학교 프로그래밍 경시대회</strong></h1> -->
 				<div class="row mt-5">
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
@@ -54,9 +93,7 @@
 			</div>
 		</div>
 	</div>
-</section>
-
-<section class="">
+	<!-- </div> -->
 	<div class="container">
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
@@ -83,6 +120,7 @@
 					</li>
 				</ul>
 			</div>
+
 			<div class="col-md-10 offset-md-1">
 				<br>
 				<h1>2024년 개정 규정</h1>
