@@ -670,10 +670,10 @@
 						</p>
 
 						<p>
-							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
+							<a href="https://solved.ac" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-solvedac-white.png"
-									alt="Hyundai Mobis"
+									alt="solved.ac"
 									width="200px"
 									class="mw-100"
 								/>
