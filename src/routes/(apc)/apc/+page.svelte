@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 
-	const year = 2023;
+	const year = 2024;
 	const email = 'ansi.ajou@gmail.com';
 </script>
 
@@ -36,12 +36,19 @@
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>대회 일시</h2>
-						<p class="display-5"><strong>2024년 5월 25일(토) 12시부터 18시까지</strong></p>
+						<p class="display-5"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
+						</a>
 					</div>
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>접수 기간</h2>
-						<p class="display-5"><strong>2024년 5월 22일(수) 23시 59분까지</strong></p>
+						<p class="display-5"><strong>5월 22일(수) 23시 59분</strong></p>
+
+						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -53,18 +60,33 @@
 	<div class="container">
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
-				<h1>공지사항</h1>
+				<h1>주요 공지</h1>
 				<ol>
 					<li>
-						
+						(24.05.07) 참가자 신청이 시작되었습니다. 많은 관심 부탁드립니다. 
 					</li>
 				</ol>
 			</div>
 		</div>
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
+				<h1>주요 규정</h1>
+				<ul>
+					<li>
+						APC는 1인 1팀의 개인전 형태로 치러집니다.
+					</li>
+					<li>
+						대회에 사용할 컴퓨터는 개인 지참해야 하며, 1인당 1대의 컴퓨터만 허용합니다.
+					</li>
+					<li>
+						하드 카피를 허용합니다. 단면 인쇄로 최대 25장 까지 가능합니다. 사전에 인쇄해서 대회 당일 가져오신 후 스태프에게 검사를 맡은 후 사용해 주시면 됩니다.
+					</li>
+				</ul>
+			</div>
+			<div class="col-md-10 offset-md-1">
+				<br>
 				<h1>2024년 개정 규정</h1>
-				<ol>
+				<ul>
 					<li>
 						Division 별 참가 자격이 변경 되었습니다
 						<ul>
@@ -74,31 +96,44 @@
 							<li>
 								Division 2 : 소프트웨어융합대학 혹은 정보통신대학 소속이 아닌 자
 							</li>
-							<li>
-								(예 1) 소프트웨어학과 학생은 반드시 Division 1에 참가해야 합니다.
+							<ul>
+								<li>
+									(예 1) 소프트웨어학과 학생은 반드시 Division 1에 참가해야 합니다.
+								</li>
 
-								(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
-							</li>
+								<li>
+									(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
+								</li>
+							</ul>
+							
 						</ul>
 					</li>
-				</ol>
+					
+					<li>
+						대회가 진행되는 동안 타인 간에 의사소통, 자료 공유 등의 모든 행위를 금지합니다.
+					</li>
+					<li>
+						대회 중 퇴실은 불가합니다.
+					</li>
+					<li>
+						대회 중 chatGPT, Copilot 등을 포함한 생성형 AI의 사용을 금지합니다.
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
 </section>
 
-<section class="" id="about">
+<hr class="my-0" />
+<!-- <section class="" id="about">
 	<div class="container">
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
-						<!-- <a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">대회가 종료되었습니다</button>
-						</a> -->
 					</div>
 					<div class="col-md-6">
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
@@ -109,7 +144,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="" id="about">
 	<div class="container">
@@ -119,20 +154,31 @@
 				<p>
 					<strong>Ajou Programming Contest</strong>는 논리적인 사고로 문제를 해결하는 아주대학교
 					교내 프로그래밍 경시대회입니다. 전공 학생들에게는 실력을 검증하고 성장할 수 있는 기회가,
-					비전공 학생들에게는 보다 흥미롭게 SW의 가치를 경험하는 기회가 될 것입니다.
+					비전공 학생들에게는 보다 흥미롭게 SW의 가치를 경험하는 기회가 될 것입니다. 
 				</p>
-				<h3>시상 내역</h3>
+				<p>
+					APC는 두 개의 Division으로 나뉘어 운영됩니다. 
+				</p>
+				<p>
+					<strong>Division 1</strong>은 보다 수준 높은 문항들로 구성되며, 상위권 입상자에게 경인지역 연합 프로그래밍 대회 shake!의 출전권이 부여됩니다.
+				</p>
+				<p>
+					<strong>Division 2</strong>는 알고리즘 문제해결이 익숙하지 않은 분들도 푸는 재미를 느낄 수 있도록 문항이 구성됩니다.
+				</p>
+
+				<br>
+				<br>
+
+				<h1>참가 자격 및 시상 내역</h1>
 				<div class="row">
 					<div class="col-md-6">
 						<h5>Division 1 - Competition Round</h5>
 						<p>
-							정보통신대학 및 소프트웨어융합대학 소속 학과 재학생 및 보다 높은 수준의 대회에
-							참가하고 싶은 아주대학교 재학생이 참여 가능합니다.
+							소속 상관 없이 <u> 누구나 </u>
 						</p>
 						<ul>
-							<li>대상: 총장상 및 상금 50만원, 아이패드 (1명)</li>
+							<li>대상: 총장상 및 상금 50만원(1명)</li>
 							<li>최우수상: SW중심대학사업단장상 및 상금 30만원 (1명)</li>
-							<li>3등 MORAI 특별상: MORAI 후원상 및 상금 25만원 (1명)</li>
 							<li>우수상: SW중심대학사업단장상 및 상금 20만원 (2명)</li>
 							<li>장려상: SW중심대학사업단장상 및 상금 10만원 (3명)</li>
 							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
@@ -146,29 +192,28 @@
 					<div class="col-md-6">
 						<h5>Division 2 - Challenge Round</h5>
 						<p>
-							정보통신대학 및 소프트웨어융합대학 소속이 아닌 학과에 속한 모든 아주대학교 재학생 및
-							정보통신대학 및 소프트웨어융합대학 소속 1학년 재학생이 참여 가능합니다.
+							소프트웨어융합대학 및 정보통신대학 소속이 <u>아닌 자</u>
 						</p>
 						<ul>
 							<li>대상: 총장상 및 상금 30만원 (1명)</li>
 							<li>최우수상: SW중심대학사업단장상 및 상금 20만원 (1명)</li>
-							<li>3등 MORAI 특별상: MORAI 후원상 및 상금 15만원 (1명)</li>
 							<li>우수상: SW중심대학사업단장상 및 상금 10만원 (3명)</li>
 							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
-						<p>
-							정보통신대학 및 소프트웨어융합대학 소속 학생 중 2학년 이상은 <strong>Division2</strong
-							> 참가 불가
-						</p>
 					</div>
+
+					<ul>
+						<li> <strong>시상 내역과 시상품은 학과 사정에 따라 변경될 수 있습니다.</strong> </li>	
+						<li>
+							<strong>Division 1, Division 2 참가 가능 여부는 "제1전공"을 기준으로 합니다. (학사서비스 ⇒
+							학적 기본 조회 ⇒ 전공 ⇒ 제1전공)</strong>
+						</li>
+					</ul>
 					<p>
-						<strong>* 시상 내역은 학과 사정에 따라 변경될 수 있습니다.</strong>
+						
 					</p>
 					<p>
-						<strong
-							>* Division 1, Division 2 참가 가능 여부는 "제1전공"을 기준으로 합니다. (학사서비스 ⇒
-							학적 기본 조회 ⇒ 전공 ⇒ 제1전공)</strong
-						>
+						
 					</p>
 				</div>
 			</div>
@@ -186,7 +231,7 @@
 				<div class="row">
 					<div class="col-md-10 offset-md-1">
 						<p>
-							<strong>본 대회는 4시간 동안 진행되며, 세부 일정은 아래와 같습니다.</strong>
+							<strong>본 대회는 3시간 동안 진행되며, 세부 일정은 아래와 같습니다.</strong>
 						</p>
 						<table class="table table-hover">
 							<thead>
@@ -200,31 +245,31 @@
 								<tr>
 									<td>12:00 ~ 12:30</td>
 									<td>대회 개최식 및 지도 교수님 소개</td>
-									<td>오프라인</td>
+									<td>원천관 251호</td>
 								</tr>
 								<tr>
-									<td>12:30 ~ 13:20</td>
+									<td>12:30 ~ 13:10</td>
 									<td>후원사 소개 및 홍보세션</td>
-									<td>오프라인</td>
+									<td>원천관 251호</td>
 								</tr>
 								<tr>
-									<td>13:20 ~ 14:00</td>
-									<td>이동 및 환경점검</td>
-									<td>오프라인</td>
+									<td>13:10 ~ 14:00</td>
+									<td>대회장 이동 및 환경점검</td>
+									<td>원천관 251호</td>
 								</tr>
 								<tr>
-									<td><strong>14:00 ~ 18:00</strong></td>
-									<td><strong>본대회</strong></td>
-									<td><strong>오프라인</strong></td>
+									<td><strong>14:00 ~ 17:00</strong></td>
+									<td><strong>본 대회</strong></td>
+									<td><strong>팔달관</strong></td>
 								</tr>
 								<tr>
-									<td>18:00 ~ 19:00</td>
+									<td>17:00 ~ 18:00</td>
 									<td>풀이 및 결과발표</td>
-									<td>오프라인</td>
+									<td>원천관 251호</td>
 								</tr>
 							</tbody>
 						</table>
-						<p>위 일정은 당일 사정에 따라 조정될 수 있습니다.</p>
+						<p>위 일정과 장소는 당일 사정에 따라 조정될 수 있습니다.</p>
 					</div>
 				</div>
 			</div>
@@ -232,9 +277,9 @@
 	</div>
 </section>
 
-<hr class="my-0" />
+<!-- <hr class="my-0" /> -->
 
-<section class="" id="location">
+<!-- <section class="" id="location">
 	<div class="container">
 		<div class="row my-5">
 			<div class="col-md-10 offset-md-1">
@@ -253,7 +298,7 @@
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <hr class="my-0" />
 
@@ -318,7 +363,7 @@
 								<strong>허용되지 않습니다.</strong>
 							</li>
 							<li>
-								하드 카피<sup>물리적으로 인쇄된 문서</sup>는 허용되며 앞, 뒷면 상관 없이
+								하드 카피<sup>물리적으로 인쇄된 문서</sup>는 허용되며 단면 인쇄로
 								<strong>최대 25장</strong>
 								까지 가능합니다. 사전에 인쇄해서 대회 당일 가져오신 후 스태프에게 검사를 맡은 후 사용해
 								주시면 됩니다.
@@ -339,14 +384,16 @@
 						<h5>대회 진행 중</h5>
 						<ul>
 							<li>
-								타인과 의견을 주고받을 수 있는 <strong>모든 메신저의 사용은 금지</strong>됩니다.
+								타인과 의견을 주고받을 수 있는 <strong>모든 메신저의 사용을 금지합니다.
 							</li>
 							<li>
-								대회가 진행되는 동안 타인 간에 의사소통, 자료 공유 등의 모든 행위는 금지됩니다.
+								대회 중 chatGPT, Copilot 등을 포함한 생성형 AI의 사용을 금지합니다.
 							</li>
 							<li>
-								대회 시작 후 1시간 경과 이전까지는 대회장을 나가실 수 없습니다. 또한 대회장을 나가신
-								이후에는 더 이상의 풀이 제출은 하실 수 없습니다.
+								대회가 진행되는 동안 타인 간에 의사소통, 자료 공유 등의 모든 행위를 금지합니다.
+							</li>
+							<li>
+								대회 중 퇴실은 불가합니다.
 							</li>
 							<li>
 								사전에 안내되는 언어 레퍼런스 페이지를 제외한 <strong
@@ -539,16 +586,6 @@
 							<strong>후원</strong>
 						</p>
 						<p>
-							<a href="https://startlink.io" target="_blank" rel="noreferrer">
-								<img
-									src="{base}/logo-company-startlink-white.png"
-									alt="linc 3.0"
-									width="200px"
-									class="mw-100"
-								/>
-							</a>
-						</p>
-						<p>
 							<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-dspace.png"
@@ -558,7 +595,7 @@
 								/>
 							</a>
 						</p>
-						<p>
+						<!-- <p>
 							<a href="https://www.morai.ai/ko" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-morai-white.png"
@@ -567,8 +604,8 @@
 									class="mw-100"
 								/>
 							</a>
-						</p>
-						<p>
+						</p> -->
+						<!-- <p>
 							<a
 								href="https://www.samsungdisplay.com/kor/index.jsp"
 								target="_blank"
@@ -581,12 +618,45 @@
 									class="mw-100"
 								/>
 							</a>
-						</p>
+						</p> -->
 						<p>
 							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-hyundaimobis-white.png"
 									alt="Hyundai Mobis"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+
+						<p>
+							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-solvedac-white.png"
+									alt="Hyundai Mobis"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+
+						<p>
+							<a href="https://coding-x.com/class" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-codingx-white.png"
+									alt="Coding X"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+
+						<p>
+							<a href="https://startlink.io" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-startlink-white.png"
+									alt="Startlink"
 									width="200px"
 									class="mw-100"
 								/>
