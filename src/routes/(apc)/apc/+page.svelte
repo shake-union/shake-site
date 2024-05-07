@@ -74,16 +74,16 @@
 				<div class="row mt-5">
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
-						<h2>대회 일시</h2>
-						<p class="display-5"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+						<h4>대회 일시</h4>
+						<p class="display-6"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
 					</div>
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
-						<h2>접수 기간</h2>
-						<p class="display-5"><strong>5월 22일(수) 23시 59분</strong></p>
+						<h4>접수 기간</h4>
+						<p class="display-6"><strong>5월 22일(수) 23시 59분</strong></p>
 
 						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
