@@ -59,11 +59,12 @@
 	</div>
 </section> -->
 
-<div class="title_image">
-    <div class="t_img">
-		<img src="{base}/background.png" alt="apc_background"/>
-    </div>
-</div>
+<!--<div class="title_image">-->
+<!--    <div class="t_img">-->
+<!--			<img class="t_img" src="{base}/background.png" alt="apc_background"/>-->
+			<img class="position-relative start-0 top-0 w-100 object-fit-cover" src="{base}/background.png" alt="apc_background"/>
+<!--    </div>-->
+<!--</div>-->
 
 <section class="">
 	<!-- <div class="container position-relative text-white"> -->
@@ -422,7 +423,7 @@
 						<h5>대회 진행 중</h5>
 						<ul>
 							<li>
-								타인과 의견을 주고받을 수 있는 <strong>모든 메신저의 사용을 금지합니다.
+								타인과 의견을 주고받을 수 있는 <strong>모든 메신저의 사용을 금지</strong>합니다.
 							</li>
 							<li>
 								대회 중 chatGPT, Copilot 등을 포함한 생성형 AI의 사용을 금지합니다.
