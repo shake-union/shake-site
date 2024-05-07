@@ -36,12 +36,12 @@
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>대회 일시</h2>
-						<p class="display-5"><strong>5월 27일 14:00</strong></p>
+						<p class="display-5"><strong>2024년 5월 25일(토) 12시부터 18시까지</strong></p>
 					</div>
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h2>접수 기간</h2>
-						<p class="display-5"><strong>5월 24일 23:59까지</strong></p>
+						<p class="display-5"><strong>2024년 5월 22일(수) 23시 59분까지</strong></p>
 					</div>
 				</div>
 			</div>
@@ -56,48 +56,28 @@
 				<h1>공지사항</h1>
 				<ol>
 					<li>
-						상격이 "소프트웨어융합대학단장상"에서 "SW중심대학사업단장상"으로 변경되었습니다.
-						(2023-05-08)
+						
 					</li>
-					<li>대회 일정에 후원사 홍보 일정이 추가되었습니다. (2023-05-08)</li>
-					<li>시상 내역에 3등 MORAI 기업 후원상이 추가되었습니다. (2023-05-10)</li>
-					<li>dSPACE 후원사가 추가되었습니다. (2023-05-17)</li>
-					<li>대회 시작 일정 시간이 13시에서 12시로 앞당겨졌습니다. (2023-05-17)</li>
 				</ol>
 			</div>
 		</div>
 		<div class="row my-7">
 			<div class="col-md-10 offset-md-1">
-				<h1>2023년 개정 규정</h1>
+				<h1>2024년 개정 규정</h1>
 				<ol>
 					<li>
-						하드카피, 소프트카피 관련 규정이 개정되었습니다.
+						Division 별 참가 자격이 변경 되었습니다
 						<ul>
 							<li>
-								하드카피, 소프트카피는 허용되지 않음 ⇒ <strong
-									>소프트카피<sup>인쇄되지 않은 디지털 문서 파일</sup>는 허용되지 않음, 하드카피<sup
-										>물리적으로 인쇄된 문서</sup
-									>는 앞, 뒷면 상관 없이 최대 25장 허용</strong
-								>
-							</li>
-						</ul>
-					</li>
-					<li>
-						Division2 참가 자격이 변경되었습니다.
-						<ul>
-							<li>
-								정보통신대학 및 소프트웨어융합대학 재학생을 제외한 모든 재학생 ⇒ <strong
-									>정보통신대학 및 소프트웨어융합대학 재학생을 제외한 모든 재학생 및 정보통신대학 및
-									소프트웨어융합대학 1학년 재학생</strong
-								>
+								Division 1 : 전공 상관 없이 누구나
 							</li>
 							<li>
-								예시:
-								<ul>
-									<li>소프트웨어학과 3, 4학년: Div1에만 참여 가능</li>
-									<li>사이버보안학과 1학년: Div1, 2 모두 참여 가능</li>
-									<li>e-비즈니스학과 N학년: Div1, 2 모두 참여 가능</li>
-								</ul>
+								Division 2 : 소프트웨어융합대학 혹은 정보통신대학 소속이 아닌 자
+							</li>
+							<li>
+								(예 1) 소프트웨어학과 학생은 반드시 Division 1에 참가해야 합니다.
+
+								(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
 							</li>
 						</ul>
 					</li>
@@ -113,12 +93,12 @@
 			<div class="col-md-10 offset-md-1">
 				<div class="row gy-3">
 					<div class="col-md-6">
-						<!-- <a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
-						</a> -->
 						<a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">대회가 종료되었습니다</button>
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
+						<!-- <a href="https://forms.gle/vzBvwLbs8CCVXFJZ7" target="_blank" rel="noreferrer">
+							<button class="btn btn-ansi-red text-white w-100 p-3">대회가 종료되었습니다</button>
+						</a> -->
 					</div>
 					<div class="col-md-6">
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
