@@ -101,8 +101,22 @@
 				<h1>주요 공지</h1>
 				<ol>
 					<li>
+						(24.05.13) 대회 당일 사용할 노트북과 필기구는 참가자가 직접 지참해야합니다. 연습장은 대회장에서 스태프에 의해 제공되는 A4 용지만 사용할 수 있습니다.
+					</li>
+					<li>
+						(24.05.13) 외국인 참가자의 한하여, 온라인 번역기 사용을 허가합니다. 단, chatGPT와 같은 생성형 AI를 이용한 번역은 불가하며, 번역 기능만을 제공하는 사이트(파파고 등)를 이용해야합니다. 
+						이용하고자하는 사이트는 대회 당일 스태프의 검사 후 사용 가능합니다.
+						<br>
+						<br>
+						We allow online translator only for foreign participants.
+						You should use a site (such as a Papago) that only provides translation functionality. Translation using generative AI(eg. chatGPT) are not allowed. 
+						The site you want to use can be used after inspection by the staff on the day of the competition.
+						<br><br>
+					</li>
+					<li>
 						(24.05.07) 참가자 신청이 시작되었습니다. 많은 관심 부탁드립니다. 
 					</li>
+					
 				</ol>
 			</div>
 		</div>
