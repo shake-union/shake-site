@@ -75,8 +75,10 @@
 				<div class="row mt-5">
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
-						<h4>대회 일시</h4>
+						<h4>대회 일시 및 장소</h4>
 						<p class="display-6"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+
+						<p class="display-6"><strong>개회식 : 원천관 251호(강당)</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
@@ -86,8 +88,10 @@
 						<h4>접수 기간</h4>
 						<p class="display-6"><strong>5월 22일(수) 23시 59분</strong></p>
 
+						<p class="display-6"><strong>참가 신청 마감</strong></p>
+
 						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청이 마감되었습니다.</button>
 						</a>
 					</div>
 				</div>
@@ -100,6 +104,24 @@
 			<div class="col-md-10 offset-md-1">
 				<h1>주요 공지</h1>
 				<ol>
+					<li>
+						(24.05.24) 
+						<br>
+						참가자 여러분은 <strong>원천관 251호(강당)으로 5월 25일(토) 12시까지</strong> 와주시기 바랍니다.
+						<br>
+
+						만약 본 대회 시각인 <strong>14시 이후에 대회장에 도착할 경우 대회를 응시할 수 없습니다.</strong>
+
+						<br>
+
+						본 대회는 원천관이 아닌 팔달관과 산학원에서 진행될 예정입니다.
+						
+						<br> 
+						
+						만약 개회식 불참 시 대회장 안내를 위해 <strong>김현빈(010-9962-0019)</strong>에게 문자를 남겨주시기 바립니다.
+						<br>
+						<br>
+					</li>
 					<li>
 						(24.05.23) 대회 당일 대회 관련 페이지와 지원 언어별 공식 레퍼런스 사이트를 외한 어떤 외부 사이트의 접속을 금합니다. 이는 온라인 IDE를 포함합니다. 
 						<br> 따라서, 참가자분들께서는 오프라인 컴파일 환경을 준비하여 주시기 바랍니다.
