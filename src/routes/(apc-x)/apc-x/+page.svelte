@@ -511,11 +511,11 @@
 								</tr>
 								<tr>
 									<td>Python3</td>
-									<td>Python 3.11.0</td>
+									<td>Python 3.11.5</td>
 								</tr>
 								<tr>
 									<td>PyPy3</td>
-									<td>Python 3.9.12, PyPy 7.3.9 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)</td>
+									<td>Python 3.10.12, PyPy 7.3.12 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)</td>
 								</tr>
 							</tbody>
 						</table>
