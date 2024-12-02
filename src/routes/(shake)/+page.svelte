@@ -84,11 +84,11 @@
 			<div class="col-md-7">
 				<div style="height: 2px; width: 30px; background: #2196f3;" class="mb-4" />
 				<p>
-					<strong>shake!</strong>는 경인지역 6개 대학의 학생들이 함께하는 프로그래밍 대회입니다.
+					<strong>shake!</strong>는 경인지역 7개 대학의 학생들이 함께하는 프로그래밍 대회입니다.
 					<br />
 					<strong>아주대학교</strong>, <strong>경희대학교</strong>, <strong>성균관대학교</strong>,
 					<strong>인하대학교</strong>, <strong>한국항공대학교</strong>,
-					<strong>한양대학교 ERICA</strong>의 학교 대표들이 모여 함께하는 본 대회는 6개 대학
+					<strong>한양대학교 ERICA</strong>, <strong>단국대학교</strong>의 학교 대표들이 모여 함께하는 본 대회는 7개 대학
 					학생들을 위한 교류의 장을 지향합니다. 다른 학교 학생들과 함께하는 과정에서 보다 넓은
 					세계를 대상으로 시야를 넓히고, 다양한 문제를 고민하고 해결하는 과정을 통해 자신의 역량을
 					뽐내고 피드백을 통해 발전할 수 있는 기회가 될 것입니다.
@@ -213,7 +213,7 @@
 				<h2><strong>대회 참가</strong> 안내</h2>
 				<p>
 					<strong>shake!</strong>는 각 학교 선발전을 통해 선발된 학교 대표 학생들만 참가할 수
-					있습니다. 2024 경인지역 6개대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
+					있습니다. 2024 경인지역 대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
 					<strong>학교 대표 선발전</strong> 일정은 아래와 같습니다.
 					<br />
 					<strong>문의사항</strong>은 각 학교별 주관처를 통해주시기 바랍니다.
@@ -409,7 +409,7 @@
 					<div class="col-md-10 offset-md-1">
 						<h3>참가 자격</h3>
 						<p>
-							6개대학 학부생 중 아래 조건을 모두 만족하도록 주관처에 의해 선정된 <strong
+							7개대학 학부생 중 아래 조건을 모두 만족하도록 주관처에 의해 선정된 <strong
 								>각 학교대표 10인</strong
 							>
 						</p>
