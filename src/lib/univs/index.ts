@@ -6,6 +6,7 @@ import skku from './skku.svelte';
 import inha from './inha.svelte';
 import krar from './krar.svelte';
 import hyer from './hyer.svelte';
+import dank from './dank.svelte';
 
 export interface University {
 	name: string;
@@ -34,9 +35,9 @@ export const universities: University[] = [
 		host: '아주대학교 SW중심대학사업단',
 		organizerAffiliation: '아주대학교 알고리즘 소학회',
 		organizerName: 'A.N.S.I.',
-		organizerRepresentative: '이헌우',
-		precontest: '2023 아주대학교 프로그래밍 경시대회 (APC)',
-		precontestDate: '2023. 05. 27.',
+		organizerRepresentative: '김유겸',
+		precontest: '2024 아주대학교 프로그래밍 경시대회 (APC)',
+		precontestDate: '2024. 05. 25.',
 		component: ajou
 	},
 	{
@@ -46,9 +47,9 @@ export const universities: University[] = [
 		host: '경희대학교 컴퓨터공학부',
 		organizerAffiliation: '경희대학교 컴퓨터공학부 학생회',
 		organizerName: '',
-		organizerRepresentative: '정혜인',
-		precontest: '2023 경희대학교 봄 프로그래밍 경시대회',
-		precontestDate: '2023. 9. 22.',
+		organizerRepresentative: '이혁승',
+		precontest: '2024 경희대학교 프로그래밍 경시대회(ERICA 동시개최)',
+		precontestDate: '2024. 11. 9.',
 		component: khee
 	},
 	{
@@ -58,9 +59,9 @@ export const universities: University[] = [
 		host: '성균관대학교 소프트웨어학과',
 		organizerAffiliation: '성균관대학교 알고리즘 동아리',
 		organizerName: 'NPC',
-		organizerRepresentative: '조성현',
-		precontest: '2023 shake! 성균관대학교 선발전',
-		precontestDate: '2023. 05. 27.',
+		organizerRepresentative: '이승재',
+		precontest: '2024 성균관대학교 프로그래밍 경진대회(아주대학교 동시 개최)',
+		precontestDate: '2024. 05. 25.',
 		component: skku
 	},
 	{
@@ -70,9 +71,9 @@ export const universities: University[] = [
 		host: '인하대학교 컴퓨터공학과',
 		organizerAffiliation: '인하대학교 컴퓨터공학 학술소모임',
 		organizerName: 'CTP',
-		organizerRepresentative: '최준형',
-		precontest: '2023 인하대학교 프로그래밍 경시대회 (IUPC)',
-		precontestDate: '2023. 5. 21.',
+		organizerRepresentative: '최명근',
+		precontest: '2024 인하대학교 프로그래밍 경시대회 (IUPC)',
+		precontestDate: '2024. 5. 18.',
 		component: inha
 	},
 	{
@@ -82,9 +83,9 @@ export const universities: University[] = [
 		host: '한국항공대학교 소프트웨어학과',
 		organizerAffiliation: '한국항공대학교 알고리즘 학회',
 		organizerName: 'koala',
-		organizerRepresentative: '전영서',
-		precontest: '2023 제3회 한국항공대학교 프로그래밍 경시대회 (KAUPC)',
-		precontestDate: '2023. 7. 29.',
+		organizerRepresentative: '지원',
+		precontest: '2024 제4회 한국항공대학교 프로그래밍 경시대회 (KAUPC)',
+		precontestDate: '2024. 8. 3.',
 		component: krar
 	},
 	{
@@ -94,9 +95,21 @@ export const universities: University[] = [
 		host: '한양대에리카 알고리즘 학회 0&1',
 		organizerAffiliation: '한양대에리카 알고리즘 학회',
 		organizerName: '0&1',
-		organizerRepresentative: '정민',
-		precontest: '2023 Zero One Algorithm Contest (ZOAC)',
-		precontestDate: '2023. 9. 22.',
+		organizerRepresentative: '오익준',
+		precontest: '2024 Zero One Algorithm Contest (ZOAC)',
+		precontestDate: '2024. 11. 9.',
 		component: hyer
+	},
+	{
+		name: '단국대학교',
+		shortname: '단국대',
+		id: 'dankok',
+		host: '단국대학교 모빌리티 포렌식 보안 연구소',
+		organizerAffiliation: '단국대학교 소프트웨어학과 과동아리',
+		organizerName: 'SWAG',
+		organizerRepresentative: '임백규',
+		precontest: '단국대학교 프로그래밍 경시대회(DSPC)(ERICA 동시개최)',
+		precontestDate: '2024. 11. 9.',
+		component: dank
 	}
 ];

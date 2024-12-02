@@ -213,7 +213,7 @@
 				<h2><strong>대회 참가</strong> 안내</h2>
 				<p>
 					<strong>shake!</strong>는 각 학교 선발전을 통해 선발된 학교 대표 학생들만 참가할 수
-					있습니다. 2023 경인지역 6개대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
+					있습니다. 2024 경인지역 6개대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
 					<strong>학교 대표 선발전</strong> 일정은 아래와 같습니다.
 					<br />
 					<strong>문의사항</strong>은 각 학교별 주관처를 통해주시기 바랍니다.
@@ -273,36 +273,36 @@
 					<hr />
 					<div>
 						<h6><strong>일시</strong></h6>
-						<p>2024년 1월 13일 토요일 12시 ~ 19시</p>
+						<p>2025년 1월 11일 토요일 12시 ~ 19시</p>
 						<h6><strong>장소</strong></h6>
-						<p>아주대학교 연암관 로비(1층)</p>
+						<p>TBD</p>
 						<h6><strong>시상</strong></h6>
 						<div class="row">
 							<div class="col-3">대상(1명)</div>
-							<div class="col-9">아주대학교 총장상 및 후원사(dSPACE) <strong>제공 아이패드</strong></div>
+							<div class="col-9">TBD</div>
 						</div>
 						<div class="row">
 							<div class="col-3">최우수상(2명)</div>
 							<div class="col-9">
-								LINC 3.0 사업단장/SW융합교육원장상 및 후원사(MOLOCO) 제공 <strong>소니 헤드셋</strong>
+								TBD
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-3">우수상(2명)</div>
 							<div class="col-9">
-								창의산학교육원장/SW융합교육원장상 및 <strong>갤럭시 워치 6세대</strong>
+								TBD
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-3">장려상(4명)</div>
 							<div class="col-9">
-								창의산학교육원장/SW교육센터장상 및 <strong>상금 100,000원</strong>
+								TBD
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-3">특별상(6명)</div>
 							<div class="col-9">
-								후원사(solved.ac) 제공 <strong>기프티콘</strong>
+								TBD
 							</div>
 						</div>
 					</div>
