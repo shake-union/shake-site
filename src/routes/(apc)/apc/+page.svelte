@@ -75,8 +75,10 @@
 				<div class="row mt-5">
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
-						<h4>대회 일시</h4>
+						<h4>대회 일시 및 장소</h4>
 						<p class="display-6"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+
+						<p class="display-6"><strong>개회식 : 원천관 251호(강당)</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
@@ -86,8 +88,10 @@
 						<h4>접수 기간</h4>
 						<p class="display-6"><strong>5월 22일(수) 23시 59분</strong></p>
 
+						<p class="display-6"><strong>참가 신청 마감</strong></p>
+
 						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청이 마감되었습니다.</button>
 						</a>
 					</div>
 				</div>
@@ -100,6 +104,54 @@
 			<div class="col-md-10 offset-md-1">
 				<h1>주요 공지</h1>
 				<ol>
+					<li>
+						(24.05.24)
+						<br>
+
+						<strong>대회 공지와 일정, 대회 계정을 안내한 메일이 발송되었습니다.</strong>
+
+						<br>
+
+						메일에 안내된 대회 계정으로 <a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a>에 로그인 후 예비 소집 문항들을 풀어볼 수 있습니다.
+						대회 채점 환경을 점검해주시기 바랍니다.
+
+						<br><br>
+
+						GLHF!
+
+						<br><br>
+					</li>
+					<li>
+						(24.05.24) 
+						<br>
+						참가자 여러분은 <strong>원천관 251호(강당)으로 5월 25일(토) 12시까지</strong> 와주시기 바랍니다.
+						<br>
+
+						만약 본 대회 시각인 <strong>14시 이후에 대회장에 도착할 경우 대회를 응시할 수 없습니다.</strong>
+
+						<br>
+
+						본 대회는 원천관이 아닌 팔달관과 산학원에서 진행될 예정입니다.
+						
+						<br> 
+						
+						만약 개회식 불참 시 대회장 안내를 위해 <strong>김현빈(010-9962-0019)</strong>에게 문자를 남겨주시기 바립니다.
+						
+						<br>
+						대회 당일 사전 연락 없이 불참 시 이후 대회 참가에 불이익이 있습니다.
+						<br>
+						<br>
+					</li>
+					<li>
+						(24.05.23) 대회 당일 대회 관련 페이지와 지원 언어별 공식 레퍼런스 사이트를 외한 어떤 외부 사이트의 접속을 금합니다. 이는 온라인 IDE를 포함합니다. 
+						<br> 따라서, 참가자분들께서는 오프라인 컴파일 환경을 준비하여 주시기 바랍니다.
+					</li>
+					<li>
+						(24.05.20) 대회 당일 개회식 및 폐회식은 원천관, 본 대회는 참가 Division에 맞게 팔달관과 산학원(죄송합니다.)에서 진행될 예정입니다. 참고 바랍니다.
+					</li>
+					<li>
+						(24.05.20) 대회 불참 시 <a href="mailto:ansi.ajou@gmail.com">공식 메일</a>로 연락주셔야 합니다. 대회 당일 무단 불참 시 이후 대회 참가에 불이익이 있습니다.
+					</li>
 					<li>
 						(24.05.13) 대회 당일 사용할 노트북과 필기구는 참가자가 직접 지참해야 합니다. 연습장은 대회장에서 스태프에 의해 제공되는 A4 용지만 사용할 수 있습니다.
 					</li>
@@ -313,7 +365,7 @@
 								<tr>
 									<td><strong>14:00 ~ 17:00</strong></td>
 									<td><strong>본 대회</strong></td>
-									<td><strong>팔달관</strong></td>
+									<td><strong>팔달관/산학원</strong></td>
 								</tr>
 								<tr>
 									<td>17:00 ~ 18:00</td>
@@ -400,12 +452,7 @@
 							</li>
 							<li>
 								개인 컴퓨터에는 대회 시작 전 컴파일 할 수 있는 환경을 스스로 준비해야 합니다. IDE
-								사용에 제한은 없습니다.
-								<ul>
-									<li>
-										단, 온라인 IDE를 사용할 경우 해당 코드가 공개된다면 부정행위로 간주합니다.
-									</li>
-								</ul>
+								사용에 제한은 없습니다. 단, 온라인 IDE는 금합니다.
 							</li>
 							<li>
 								개인 컴퓨터와 마우스, 키보드를 제외한 <strong>모든 전자기기의 사용은 금지</strong
