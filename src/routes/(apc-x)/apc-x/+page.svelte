@@ -321,10 +321,6 @@
 							<li>
 								역대 <strong>APC Division1</strong> 수상자가 아닌 자
 							</li>
-							<li>
-								역대 <strong>APC Division2</strong> 수상자는 참가
-								가능
-							</li>
 						</ul>
 
 						<h4>대회 주요 규칙</h4>

@@ -415,7 +415,7 @@
 						</p>
 						<ul>
 							<li>각 학교 선발전을 통해 정당하게 선출된 자</li>
-							<li>2023년 2학기 기준 해당 학교 재학 상태인 자</li>
+							<li>2024년 2학기 기준 해당 학교 재학 상태인 자</li>
 							<li>
 								역대 <strong
 									><a href="https://ucpc.me/" target="_blank" rel="noreferrer"
