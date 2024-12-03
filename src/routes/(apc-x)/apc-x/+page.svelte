@@ -545,13 +545,13 @@
 						<p>
 							<strong>주최</strong>
 						</p>
-						<p />
+						<!-- <p />
 						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
 							<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
 								<img src="{base}/logo-ajou-linc3.0-white.png" alt="LINC 3.0" class="h-100" />
 							</a>
 						</div>
-						<p />
+						<p /> -->
 						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
 							<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
 								<img src="{base}/logo-ajou-ncesw-white.png" alt="SW중심대학사업단" class="h-100" />

@@ -96,13 +96,13 @@
 	/>
 
 	<meta property="og:image" content="{base}/images/og/apc-2024.png" />
-	<meta property="og:title" content="2024년 제14회 아주대학교 프로그래밍 경시대회가 열립니다!" />
-	<meta property="og:url" content="{base}/apc" />
-	<meta property="og:site_name" content="2024 APC" />
+	<meta property="og:title" content="2024년 아주대학교 프로그래밍 경시대회 Extra가 열립니다!" />
+	<meta property="og:url" content="{base}/apc-x" />
+	<meta property="og:site_name" content="2024 APC - Extra" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="2024년 5월 25일, 제14회 Ajou Programming Contest가 개최됩니다."
+		content="2024년 12월 28일, Ajou Programming Contest Extra가 개최됩니다."
 	/>
 </svelte:head>
 
