@@ -321,10 +321,6 @@
 							<li>
 								역대 <strong>APC Division1</strong> 수상자가 아닌 자
 							</li>
-							<li>
-								역대 <strong>APC Division2</strong> 수상자는 참가
-								가능
-							</li>
 						</ul>
 
 						<h4>대회 주요 규칙</h4>
@@ -511,11 +507,11 @@
 								</tr>
 								<tr>
 									<td>Python3</td>
-									<td>Python 3.11.0</td>
+									<td>Python 3.11.5</td>
 								</tr>
 								<tr>
 									<td>PyPy3</td>
-									<td>Python 3.9.12, PyPy 7.3.9 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)</td>
+									<td>Python 3.10.12, PyPy 7.3.12 with GCC 10.2.1 20210130 (Red Hat 10.2.1-11)</td>
 								</tr>
 							</tbody>
 						</table>
