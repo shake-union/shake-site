@@ -418,7 +418,7 @@
 							<li>2024년 2학기 기준 해당 학교 재학 상태인 자</li>
 							<li>
 								역대 <strong
-									><a href="https://ucpc.me/" target="_blank" rel="noreferrer"
+									><a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
 										>한국 프로그래밍 경시대회</a
 									></strong
 								> 수상자가 아닌 자

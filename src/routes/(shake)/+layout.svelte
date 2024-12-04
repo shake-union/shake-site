@@ -165,7 +165,7 @@
 							<div class="col-7 col-md-10">
 								<h5><strong>주최</strong></h5>
 								<div class="row gy-3">
-									<div class="col-12">
+									<!-- <div class="col-12">
 										<div class="ratio" style="--bs-aspect-ratio: 14%;">
 											<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
 												<img
@@ -175,7 +175,7 @@
 												/>
 											</a>
 										</div>
-									</div>
+									</div> -->
 									<div class="col-12">
 										<div class="ratio" style="--bs-aspect-ratio: 14%;">
 											<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
@@ -209,21 +209,21 @@
 							<div class="col-5 col-md-7">
 								<h5><strong>후원</strong></h5>
 								<div class="row gy-3">
-									<div class="col-12">
+									<!-- <div class="col-12">
 										<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
 											<img src="{base}/logo-company-dspace.png" alt="dSPACE" class="w-100" />
 										</a>
-									</div>
+									</div> -->
 									<div class="col-12">
 										<a href="https://www.mobis.co.kr" target="_blank" rel="noreferrer">
 											<img src="{base}/logo-company-hyundaimobis.jpg" alt="Mobis" class="w-100" />
 										</a>
 									</div>
-									<div class="col-12">
+									<!-- <div class="col-12">
 										<a href="https://www.moloco.com/ko" target="_blank" rel="noreferrer">
 											<img src="{base}/logo-company-moloco.png" alt="Moloco" class="w-100" />
 										</a>
-									</div>
+									</div> -->
 									<div class="col-12">
 										<a href="https://solved.ac/" target="_blank" rel="noreferrer">
 											<img src="{base}/logo-company-solvedac-black.png" alt="solved.ac" class="w-100" />
