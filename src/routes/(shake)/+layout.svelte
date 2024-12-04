@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>shake! 경인지역 6개대학 연합 프로그래밍 경시대회</title>
+	<title>shake! 경인지역 대학 연합 프로그래밍 경시대회</title>
 
 	<link
 		rel="apple-touch-icon-precomposed"
@@ -98,13 +98,13 @@
 	/>
 
 	<meta property="og:image" content="{base}/images/og/shake-2023.png" />
-	<meta property="og:title" content="2023 경인지역 6개대학 연합 프로그래밍 경시대회 shake!" />
+	<meta property="og:title" content="2024 경인지역 대학 연합 프로그래밍 경시대회 shake!" />
 	<meta property="og:url" content="{base}/" />
 	<meta property="og:site_name" content="shake! 2023" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="아주대학교, 경희대학교, 성균관대학교, 인하대학교, 한국항공대학교, 한양대학교 ERICA의 학교 대표들이 모여 함께하는 교류의 장, 2023 shake!"
+		content="아주대학교, 경희대학교, 성균관대학교, 인하대학교, 한국항공대학교, 한양대학교 ERICA, 단국대학교의 학교 대표들이 모여 함께하는 교류의 장, 2024 shake!"
 	/>
 </svelte:head>
 
