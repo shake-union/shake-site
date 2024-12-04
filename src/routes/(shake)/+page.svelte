@@ -419,7 +419,7 @@
 							<li>
 								역대 <strong
 									><a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
-										>한국 프로그래밍 경시대회</a
+										>한국 대학생 프로그래밍 경시대회</a
 									></strong
 								> 수상자가 아닌 자
 							</li>
