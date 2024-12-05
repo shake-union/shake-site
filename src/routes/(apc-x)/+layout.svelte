@@ -95,7 +95,7 @@
 		content="{base}/images/favicons/apc/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/apc-2024.png" />
+	<meta property="og:image" content="{base}/images/xbackground.png" />
 	<meta property="og:title" content="2024년 아주대학교 프로그래밍 경시대회 Extra가 열립니다!" />
 	<meta property="og:url" content="{base}/apc-x" />
 	<meta property="og:site_name" content="2024 APC - Extra" />
