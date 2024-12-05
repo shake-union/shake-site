@@ -97,7 +97,7 @@
 		content="{base}/images/favicons/shake/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/shake-2023.png" />
+	<meta property="og:image" content="{base}/images/og/shake-2024.png" />
 	<meta property="og:title" content="2024 경인지역 대학 연합 프로그래밍 경시대회 shake!" />
 	<meta property="og:url" content="{base}/" />
 	<meta property="og:site_name" content="shake! 2023" />
