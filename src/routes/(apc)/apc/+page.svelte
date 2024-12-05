@@ -423,7 +423,7 @@
 								</ul>
 							</li>
 							<li>
-								역대 <a href="https://ucpc.me/" target="_blank" rel="noreferrer"
+								역대 <a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
 									>한국 대학생 프로그래밍 경시대회</a
 								> 수상자가 아닌 자
 							</li>

@@ -62,7 +62,7 @@
 <!--<div class="title_image">-->
 <!--    <div class="t_img">-->
 <!--			<img class="t_img" src="{base}/background.png" alt="apc_background"/>-->
-			<img class="position-relative start-0 top-0 w-100 object-fit-cover" src="{base}/background.png" alt="apc_background"/>
+			<img class="position-relative start-0 top-0 w-100 object-fit-cover" src="{base}/xbackground.png" alt="apc_background"/>
 <!--    </div>-->
 <!--</div>-->
 
@@ -86,7 +86,7 @@
 						<h4>접수 기간</h4>
 						<p class="display-6"><strong>12월 24일(화) 23시 59분</strong></p>
 
-						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
+						<a href="https://forms.gle/aj1ouf3ZHwoVdj539" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
 					</div>
@@ -307,7 +307,7 @@
 								</ul>
 							</li>
 							<li>
-								역대 <a href="https://ucpc.me/" target="_blank" rel="noreferrer"
+								역대 <a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
 									>한국 대학생 프로그래밍 경시대회</a
 								> 수상자가 아닌 자
 							</li>
@@ -538,13 +538,13 @@
 						<p>
 							<strong>주최</strong>
 						</p>
-						<p />
+						<!-- <p />
 						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
 							<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
 								<img src="{base}/logo-ajou-linc3.0-white.png" alt="LINC 3.0" class="h-100" />
 							</a>
 						</div>
-						<p />
+						<p /> -->
 						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
 							<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
 								<img src="{base}/logo-ajou-ncesw-white.png" alt="SW중심대학사업단" class="h-100" />
