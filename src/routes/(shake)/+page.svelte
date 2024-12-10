@@ -275,7 +275,7 @@
 						<h6><strong>일시</strong></h6>
 						<p>2025년 1월 11일 토요일 12시 ~ 19시</p>
 						<h6><strong>장소</strong></h6>
-						<p>TBD</p>
+						<p>경희대학교 국제캠퍼스 멀티미디어 교육관 112호</p>
 						<h6><strong>시상</strong></h6>
 						<div class="row">
 							<div class="col-3">대상(1명)</div>
