@@ -234,6 +234,13 @@
 											<img src="{base}/logo-company-startlink.png" alt="Startlink" class="w-100" />
 										</a>
 									</div>
+									<div class="col-12">
+										<h5>
+											<strong>
+												Chris Ohk (utilForever)
+											</strong>
+										</h5>
+									</div>
 								</div>
 							</div>
 							<div class="col-7 col-md-5" />
