@@ -279,24 +279,24 @@
 						<h6><strong>시상</strong></h6>
 						<div class="row">
 							<div class="col-3">대상(1명)</div>
-							<div class="col-9">TBD</div>
+							<div class="col-9">아주대학교 총장상 및 상금 100만원</div>
 						</div>
 						<div class="row">
 							<div class="col-3">최우수상(2명)</div>
 							<div class="col-9">
-								TBD
+								아주대학교 LINC3.0 사업단장상 | 아주대/경희대 공동 SW중심대학사업단장상 및 상금 50만원
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-3">우수상(2명)</div>
 							<div class="col-9">
-								TBD
+								아주대학교 SW중심대학사업단장상 | 경희대학교 SW중심대학사업단장상 및 상금 30만원
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-3">장려상(4명)</div>
 							<div class="col-9">
-								TBD
+								아주대학교 창의산학교육원장상 | 경희대학교 AI.SW교육단장상 | 아주대학교 SW융합교육원장상 및 상금 10만원
 							</div>
 						</div>
 						<div class="row">
