@@ -302,7 +302,7 @@
 						<div class="row">
 							<div class="col-3">특별상(6명)</div>
 							<div class="col-9">
-								Introduction To Algorithms(CLRS) 4판 번역본 Sponsored by Chris Ohk(utilForever)
+								TBD
 							</div>
 						</div>
 					</div>
