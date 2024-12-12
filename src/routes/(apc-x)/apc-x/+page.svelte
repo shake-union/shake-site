@@ -244,12 +244,12 @@
 								<tr>
 									<td>13:10 ~ 14:00</td>
 									<td>대회장 이동 및 환경점검</td>
-									<td>팔달관 309호</td>
+									<td>팔달관 309호, 409호</td>
 								</tr>
 								<tr>
 									<td><strong>14:00 ~ 17:00</strong></td>
 									<td><strong>본 대회</strong></td>
-									<td><strong>팔달관 309호</strong></td>
+									<td><strong>팔달관 309호, 409호</strong></td>
 								</tr>
 								<tr>
 									<td>17:00 ~ 18:00</td>
