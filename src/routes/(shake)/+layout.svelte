@@ -241,6 +241,13 @@
 											</strong>
 										</h5>
 									</div>
+									<div class="col-12">
+										<h5>
+											<strong>
+												아주대학교 A.N.S.I.<br>졸업생 일동
+											</strong>
+										</h5>
+									</div>
 								</div>
 							</div>
 							<div class="col-7 col-md-5" />
