@@ -296,7 +296,7 @@
 						<div class="row">
 							<div class="col-3">장려상(4명)</div>
 							<div class="col-9">
-								아주대학교 창의산학교육원장상 | 경희대학교 AI.SW교육단장상 | 아주대학교 SW융합교육원장상 및 상금 10만원
+								아주대학교 창의산학교육원장상 | 경희대학교 AI.SW교육단장상 | 아주대학교 SW융합교육원장상 및 상금 10만원 + Marshall 블루투스 스피커
 							</div>
 						</div>
 						<div class="row">
