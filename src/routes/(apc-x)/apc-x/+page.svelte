@@ -77,6 +77,7 @@
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h4>대회 일시</h4>
 						<p class="display-6"><strong>12월 28일(토) 12시 ~ 18시</strong></p>
+						<p class="display-6"><strong>개회식 : 팔달관 309호</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
@@ -85,6 +86,7 @@
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h4>접수 기간</h4>
 						<p class="display-6"><strong>12월 24일(화) 23시 59분</strong></p>
+						<p class="display-6"><strong>참가 신청 마감</strong></p>
 
 						<a href="https://forms.gle/aj1ouf3ZHwoVdj539" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
@@ -232,17 +234,17 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>12:00 ~ 12:30</td>
+									<td>12:00 ~ 13:00</td>
+									<td>대회 접수</td>
+									<td>팔달관 309호</td>
+								</tr>
+								<tr>
+									<td>13:00 ~ 13:30</td>
 									<td>대회 개최식 및 지도 교수님 소개</td>
 									<td>팔달관 309호</td>
 								</tr>
 								<tr>
-									<td>12:30 ~ 13:10</td>
-									<td>후원사 소개 및 홍보세션</td>
-									<td>팔달관 309호</td>
-								</tr>
-								<tr>
-									<td>13:10 ~ 14:00</td>
+									<td>13:30 ~ 14:00</td>
 									<td>대회장 이동 및 환경점검</td>
 									<td>팔달관 309호, 409호</td>
 								</tr>
