@@ -7,17 +7,10 @@
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
-	<video
-		class="position-absolute start-0 top-0 min-vh-100 min-vw-100"
-		playsinline
-		autoplay
-		muted
-		loop
-	>
-		<source src="{base}/bg-main.mp4" type="video/mp4" />
-	</video>
+	<img class="position-absolute start-0 top-0 w-100 object-fit-cover" src="{base}/shakenew.png" alt="apc_background"/>
+	position-absolute start-0 top-0 min-vh-100 min-vw-100
 
-	<div
+	<!-- <div
 		class="position-absolute start-0 top-0 w-100 h-100"
 		style="background-color: rgba(255, 255, 255, 0.5);"
 	/>
@@ -28,10 +21,10 @@
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
 		style="background-color: rgba(0, 0, 0, 0.5);"
-	/>
+	/> -->
 
 	<div class="container vh-100 position-relative">
-		<div class="row text-white d-none d-sm-flex align-items-center h-100">
+		<!-- <div class="row text-white d-none d-sm-flex align-items-center h-100">
 			<div class="col-10 offset-1">
 				<h1 class="display-4">
 					<div class="fw-lighter">조금 더 넓은 곳에서</div>
@@ -44,8 +37,8 @@
 					>
 				</div>
 			</div>
-		</div>
-		<div class="row text-white d-flex d-sm-none align-items-center h-100">
+		</div> -->
+		<!-- <div class="row text-white d-flex d-sm-none align-items-center h-100">
 			<div class="col-10 offset-1 text-center">
 				<h2>
 					<div>조금 더 넓은 곳에서</div>
@@ -58,7 +51,7 @@
 					>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<a
 			href="#about"
 			title=""
@@ -302,7 +295,7 @@
 						<div class="row">
 							<div class="col-3">특별상(6명)</div>
 							<div class="col-9">
-								TBD
+								갤럭시워치7 2대, 네스프레소 커피머신 3대 등
 							</div>
 						</div>
 					</div>
