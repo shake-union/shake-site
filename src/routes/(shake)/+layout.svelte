@@ -235,6 +235,11 @@
 										</a>
 									</div>
 									<div class="col-12">
+										<a href="https://infossm.github.io/" target="_blank" rel="noreferrer">
+											<img src="{base}/samsungsw.png" alt="SamsungSW" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
 										<h5>
 											<strong>
 												Chris Ohk (utilForever)

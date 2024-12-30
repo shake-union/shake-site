@@ -7,8 +7,28 @@
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
-	<img class="position-absolute start-0 top-0 w-100 object-fit-cover" src="{base}/shakenew.png" alt="apc_background"/>
-	position-absolute start-0 top-0 min-vh-100 min-vw-100
+	<!-- <img class="position-absolute start-0 top-0 w-100 object-fit-cover" src="{base}/shakenew.png" alt="apc_background"/> -->
+	<style>
+		.image-container {
+		  position: absolute;
+		  inset: 0; /* top: 0; right: 0; bottom: 0; left: 0; 와 동일 */
+		  width: 100%;
+		  height: 100%;
+		  overflow: hidden; /* 부모 요소의 경계를 넘는 이미지를 숨김 */
+		}
+	  
+		.image-container img {
+		  width: 100%;
+		  height: 100%;
+		  object-fit: cover; /* 비율을 유지하며 요소를 채움 */
+		  object-position: center; /* 이미지 중심을 기준으로 배치 */
+		}
+	  </style>
+	  
+	  <div class="image-container">
+		<img src="{base}/shakenew.png" alt="apc_background" />
+	  </div>
+	<!-- position-absolute start-0 top-0 min-vh-100 min-vw-100 -->
 
 	<!-- <div
 		class="position-absolute start-0 top-0 w-100 h-100"
