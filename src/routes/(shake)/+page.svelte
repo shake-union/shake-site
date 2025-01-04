@@ -315,7 +315,7 @@
 						<div class="row">
 							<div class="col-3">특별상(6명)</div>
 							<div class="col-9">
-								갤럭시워치7 2대, 네스프레소 커피머신 3대 등
+								소니 XM5 헤드폰 1대, 갤럭시워치7 2대, 네스프레소 커피머신 3대
 							</div>
 						</div>
 					</div>
