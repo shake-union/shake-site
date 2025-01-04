@@ -187,6 +187,17 @@
 											</a>
 										</div>
 									</div>
+									<div class="col-12">
+										<div class="ratio" style="--bs-aspect-ratio: 20%;">
+											<a href="https://swedu.khu.ac.kr/" target="_blank" rel="noreferrer">
+												<img
+													src="{base}/kheesw.png"
+													alt="kheesw"
+													class="h-100"
+												/>
+											</a>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="col-5 col-md-2" />
