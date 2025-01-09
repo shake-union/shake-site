@@ -88,6 +88,27 @@
 </div>
 
 <section id="about" class="">
+<div class="container">
+	<div class="row my-7">
+		<div class="col-md-10 offset-md-1">
+			<h2>주요 공지</h2>
+			<ol>
+				<li>
+					<strong>(25.01.09)</strong> 대회 매뉴얼과 계정을 담은 메일이 발송 되었습니다. 참가자 여러분은 준비된 예비소집 대회를 통해 대회 환경을 점검해 주시기 바랍니다.
+				</li>
+				<li>
+					<strong>(25.01.10)</strong> 현재 예비소집 대회가 열리지 않은 것으로 확인되었습니다. 
+					<p>
+					빠른 시일 내에 복구하겠습니다. 
+					이에 대한 조치로, 예비소집 대회는 대회 당일 <strong>1월 11일 13시</strong>까지 연장하겠습니다. 불편을 드려 죄송합니다.
+					</p>
+				</li>
+			</ol>
+		</div>
+	</div>
+</section>
+
+<section id="about" class="">
 	<div class="container py-4">
 		<div class="row py-5 gy-5">
 			<div class="col-md-3 offset-md-1">
