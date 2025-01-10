@@ -4,6 +4,7 @@
 	import shakeData from '../../shake-data.csv';
 	import apcData from '../../apc-data.csv';
 	import { universities } from '../../lib/univs';
+	import Page from '../(apc)/apc/+page.svelte';
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
@@ -94,14 +95,22 @@
 			<h2>주요 공지</h2>
 			<ol>
 				<li>
-					<strong>(25.01.09)</strong> 대회 매뉴얼과 계정을 담은 메일이 발송 되었습니다. 참가자 여러분은 준비된 예비소집 대회를 통해 대회 환경을 점검해 주시기 바랍니다.
-				</li>
-				<li>
-					<strong>(25.01.10)</strong> 현재 예비소집 대회가 열리지 않은 것으로 확인되었습니다. 
+					<strong>(25.01.10)</strong> <del>현재 예비소집 대회가 열리지 않은 것으로 확인되었습니다. </del>
 					<p>
-					빠른 시일 내에 복구하겠습니다. 
+					<del>빠른 시일 내에 복구하겠습니다. </del>
 					이에 대한 조치로, 예비소집 대회는 대회 당일 <strong>1월 11일 13시</strong>까지 연장하겠습니다. 불편을 드려 죄송합니다.
 					</p>
+
+					<p>
+						현재 예비소집 대회가 정상적으로 진행되고 있습니다. 대회 환경을 점검해 주시기 바랍니다. 더불어, 예비소집 대회는 대회 당일 <strong>1월 11일 13시</strong>까지입니다. 
+					</p>
+
+					<p>
+						불편을 드려 죄송합니다. 
+					</p>
+				</li>
+				<li>
+					<strong>(25.01.09)</strong> 대회 매뉴얼과 계정을 담은 메일이 발송 되었습니다. 참가자 여러분은 준비된 예비소집 대회를 통해 대회 환경을 점검해 주시기 바랍니다.
 				</li>
 			</ol>
 		</div>
