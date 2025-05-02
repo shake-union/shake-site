@@ -5,6 +5,8 @@
 <svelte:head>
 	<title>APC 아주대학교 프로그래밍 경시대회</title>
 
+	<script async src="https://tally.so/widgets/embed.js"></script>
+
 	<link
 		rel="apple-touch-icon-precomposed"
 		sizes="57x57"
@@ -95,14 +97,14 @@
 		content="{base}/images/favicons/apc/mstile-310x310.png"
 	/>
 
-	<meta property="og:image" content="{base}/images/og/apc-2024.png" />
-	<meta property="og:title" content="2024년 제14회 아주대학교 프로그래밍 경시대회가 열립니다!" />
+	<meta property="og:image" content="{base}/images/og/apc-2025.png" />
+	<meta property="og:title" content="2025년 제15회 아주대학교 프로그래밍 경시대회가 열립니다!" />
 	<meta property="og:url" content="{base}/apc" />
-	<meta property="og:site_name" content="2024 APC" />
+	<meta property="og:site_name" content="2025 APC" />
 	<meta property="og:type" content="website" />
 	<meta
 		property="og:description"
-		content="2024년 5월 25일, 제14회 Ajou Programming Contest가 개최됩니다."
+		content="2025년 5월 17일, 제15회 Ajou Programming Contest가 개최됩니다."
 	/>
 </svelte:head>
 

@@ -1,7 +1,7 @@
 <script>
 	import { base } from '$app/paths';
 
-	const year = 2024;
+	const year = 2025;
 	const email = 'ansi.ajou@gmail.com';
 </script>
 
@@ -62,7 +62,7 @@
 <!--<div class="title_image">-->
 <!--    <div class="t_img">-->
 <!--			<img class="t_img" src="{base}/background.png" alt="apc_background"/>-->
-			<img class="position-relative start-0 top-0 w-100 object-fit-cover" src="{base}/background.png" alt="apc_background"/>
+			<img class="position-relative start-0 top-0 w-100 object-fit-cover" src="{base}/images/og/apc-2025.png" alt="apc_background"/>
 <!--    </div>-->
 <!--</div>-->
 
@@ -76,9 +76,9 @@
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h4>대회 일시 및 장소</h4>
-						<p class="display-6"><strong>5월 25일(토) 12시 ~ 18시</strong></p>
+						<p class="display-6"><strong>5월 17일(토) 12시 ~ 18시</strong></p>
 
-						<p class="display-6"><strong>개회식 : 원천관 251호(강당)</strong></p>
+						<p class="display-6"><strong>개회식 : 혜강관 209호(강당)</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
@@ -86,12 +86,13 @@
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h4>접수 기간</h4>
-						<p class="display-6"><strong>5월 22일(수) 23시 59분</strong></p>
+						<p class="display-6"><strong>5월 14일(수) 23시 59분까지</strong></p>
 
-						<p class="display-6"><strong>참가 신청 마감</strong></p>
+						<p class="display-6"><strong>참가 신청</strong></p>
 
-						<a href="https://forms.gle/kj8Rzjg5ySpD8b83A" target="_blank" rel="noreferrer">
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청이 마감되었습니다.</button>
+						<a href="https://tally.so/r/w2VyAb" target="_blank" rel="noreferrer">
+<!--							<button class="btn btn-ansi-red text-white w-100 p-3" data-tally-open="w2VyAb">참가 신청</button>-->
+							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
 						</a>
 					</div>
 				</div>
@@ -105,69 +106,72 @@
 				<h1>주요 공지</h1>
 				<ol>
 					<li>
-						(24.05.24)
-						<br>
-
-						<strong>대회 공지와 일정, 대회 계정을 안내한 메일이 발송되었습니다.</strong>
-
-						<br>
-
-						메일에 안내된 대회 계정으로 <a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a>에 로그인 후 예비 소집 문항들을 풀어볼 수 있습니다.
-						대회 채점 환경을 점검해주시기 바랍니다.
-
-						<br><br>
-
-						GLHF!
-
-						<br><br>
+						(25.05.02) 참가자 신청이 시작되었습니다. 많은 관심 부탁드립니다.
 					</li>
-					<li>
-						(24.05.24) 
-						<br>
-						참가자 여러분은 <strong>원천관 251호(강당)으로 5월 25일(토) 12시까지</strong> 와주시기 바랍니다.
-						<br>
+<!--					<li>-->
+<!--						(24.05.24)-->
+<!--						<br>-->
 
-						만약 본 대회 시각인 <strong>14시 이후에 대회장에 도착할 경우 대회를 응시할 수 없습니다.</strong>
+<!--						<strong>대회 공지와 일정, 대회 계정을 안내한 메일이 발송되었습니다.</strong>-->
 
-						<br>
+<!--						<br>-->
 
-						본 대회는 원천관이 아닌 팔달관과 산학원에서 진행될 예정입니다.
-						
-						<br> 
-						
-						만약 개회식 불참 시 대회장 안내를 위해 <strong>김현빈(010-9962-0019)</strong>에게 문자를 남겨주시기 바립니다.
-						
-						<br>
-						대회 당일 사전 연락 없이 불참 시 이후 대회 참가에 불이익이 있습니다.
-						<br>
-						<br>
-					</li>
-					<li>
-						(24.05.23) 대회 당일 대회 관련 페이지와 지원 언어별 공식 레퍼런스 사이트를 외한 어떤 외부 사이트의 접속을 금합니다. 이는 온라인 IDE를 포함합니다. 
-						<br> 따라서, 참가자분들께서는 오프라인 컴파일 환경을 준비하여 주시기 바랍니다.
-					</li>
-					<li>
-						(24.05.20) 대회 당일 개회식 및 폐회식은 원천관, 본 대회는 참가 Division에 맞게 팔달관과 산학원(죄송합니다.)에서 진행될 예정입니다. 참고 바랍니다.
-					</li>
-					<li>
-						(24.05.20) 대회 불참 시 <a href="mailto:ansi.ajou@gmail.com">공식 메일</a>로 연락주셔야 합니다. 대회 당일 무단 불참 시 이후 대회 참가에 불이익이 있습니다.
-					</li>
-					<li>
-						(24.05.13) 대회 당일 사용할 노트북과 필기구는 참가자가 직접 지참해야 합니다. 연습장은 대회장에서 스태프에 의해 제공되는 A4 용지만 사용할 수 있습니다.
-					</li>
-					<li>
-						(24.05.13) 외국인 참가자에 한하여, 온라인 번역기 사용을 허가합니다. 단, chatGPT와 같은 생성형 AI를 이용한 번역은 불가하며, 번역 기능만을 제공하는 사이트(파파고 등)를 이용해야 합니다. 
-						이용하고자하는 사이트는 대회 당일 스태프의 검사 후 사용 가능합니다.
-						<br>
-						<br>
-						We allow online translator only for foreign participants.
-						You should use a site (such as a Papago) that only provides translation functionality. Translation using generative AI(eg. chatGPT) are not allowed. 
-						The site you want to use can be used after inspection by the staff on the day of the competition.
-						<br><br>
-					</li>
-					<li>
-						(24.05.07) 참가자 신청이 시작되었습니다. 많은 관심 부탁드립니다. 
-					</li>
+<!--						메일에 안내된 대회 계정으로 <a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a>에 로그인 후 예비 소집 문항들을 풀어볼 수 있습니다.-->
+<!--						대회 채점 환경을 점검해주시기 바랍니다.-->
+
+<!--						<br><br>-->
+
+<!--						GLHF!-->
+
+<!--						<br><br>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.24) -->
+<!--						<br>-->
+<!--						참가자 여러분은 <strong>원천관 251호(강당)으로 5월 25일(토) 12시까지</strong> 와주시기 바랍니다.-->
+<!--						<br>-->
+
+<!--						만약 본 대회 시각인 <strong>14시 이후에 대회장에 도착할 경우 대회를 응시할 수 없습니다.</strong>-->
+
+<!--						<br>-->
+
+<!--						본 대회는 원천관이 아닌 팔달관과 산학원에서 진행될 예정입니다.-->
+<!--						-->
+<!--						<br> -->
+<!--						-->
+<!--						만약 개회식 불참 시 대회장 안내를 위해 <strong>김현빈(010-9962-0019)</strong>에게 문자를 남겨주시기 바립니다.-->
+<!--						-->
+<!--						<br>-->
+<!--						대회 당일 사전 연락 없이 불참 시 이후 대회 참가에 불이익이 있습니다.-->
+<!--						<br>-->
+<!--						<br>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.23) 대회 당일 대회 관련 페이지와 지원 언어별 공식 레퍼런스 사이트를 외한 어떤 외부 사이트의 접속을 금합니다. 이는 온라인 IDE를 포함합니다. -->
+<!--						<br> 따라서, 참가자분들께서는 오프라인 컴파일 환경을 준비하여 주시기 바랍니다.-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.20) 대회 당일 개회식 및 폐회식은 원천관, 본 대회는 참가 Division에 맞게 팔달관과 산학원(죄송합니다.)에서 진행될 예정입니다. 참고 바랍니다.-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.20) 대회 불참 시 <a href="mailto:ansi.ajou@gmail.com">공식 메일</a>로 연락주셔야 합니다. 대회 당일 무단 불참 시 이후 대회 참가에 불이익이 있습니다.-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.13) 대회 당일 사용할 노트북과 필기구는 참가자가 직접 지참해야 합니다. 연습장은 대회장에서 스태프에 의해 제공되는 A4 용지만 사용할 수 있습니다.-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.13) 외국인 참가자에 한하여, 온라인 번역기 사용을 허가합니다. 단, chatGPT와 같은 생성형 AI를 이용한 번역은 불가하며, 번역 기능만을 제공하는 사이트(파파고 등)를 이용해야 합니다. -->
+<!--						이용하고자하는 사이트는 대회 당일 스태프의 검사 후 사용 가능합니다.-->
+<!--						<br>-->
+<!--						<br>-->
+<!--						We allow online translator only for foreign participants.-->
+<!--						You should use a site (such as a Papago) that only provides translation functionality. Translation using generative AI(eg. chatGPT) are not allowed. -->
+<!--						The site you want to use can be used after inspection by the staff on the day of the competition.-->
+<!--						<br><br>-->
+<!--					</li>-->
+<!--					<li>-->
+<!--						(24.05.07) 참가자 신청이 시작되었습니다. 많은 관심 부탁드립니다. -->
+<!--					</li>-->
 					
 				</ol>
 			</div>
@@ -185,15 +189,9 @@
 					<li>
 						하드 카피를 허용합니다. 단면 인쇄로 최대 25장 까지 가능합니다. 사전에 인쇄해서 대회 당일 가져오신 후 스태프에게 검사를 맡은 후 사용해 주시면 됩니다.
 					</li>
-				</ul>
-			</div>
 
-			<div class="col-md-10 offset-md-1">
-				<br>
-				<h1>2024년 개정 규정</h1>
-				<ul>
 					<li>
-						Division 별 참가 자격이 변경 되었습니다
+						Division 별 참가 자격은 다음과 같습니다.
 						<ul>
 							<li>
 								Division 1 : 전공 상관 없이 누구나
@@ -210,10 +208,10 @@
 									(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
 								</li>
 							</ul>
-							
+
 						</ul>
 					</li>
-					
+
 					<li>
 						대회가 진행되는 동안 타인 간에 의사소통, 자료 공유 등의 모든 행위를 금지합니다.
 					</li>
@@ -326,7 +324,7 @@
 	</div>
 </section>
 
-<hr class="my-0" />
+<!--<hr class="my-0" />-->
 
 <section class="" id="location">
 	<div class="container">
@@ -350,27 +348,22 @@
 								<tr>
 									<td>12:00 ~ 12:30</td>
 									<td>대회 개최식 및 지도 교수님 소개</td>
-									<td>원천관 251호</td>
+									<td>혜강관 209호</td>
 								</tr>
 								<tr>
-									<td>12:30 ~ 13:10</td>
-									<td>후원사 소개 및 홍보세션</td>
-									<td>원천관 251호</td>
+									<td>12:30 ~ 13:00</td>
+									<td>대회장 이동 및 환경 점검</td>
+									<td>혜강관 209호</td>
 								</tr>
 								<tr>
-									<td>13:10 ~ 14:00</td>
-									<td>대회장 이동 및 환경점검</td>
-									<td>원천관 251호</td>
-								</tr>
-								<tr>
-									<td><strong>14:00 ~ 17:00</strong></td>
+									<td><strong>13:00 ~ 16:00</strong></td>
 									<td><strong>본 대회</strong></td>
-									<td><strong>팔달관/산학원</strong></td>
+									<td><strong>혜강관 209호</strong></td>
 								</tr>
 								<tr>
-									<td>17:00 ~ 18:00</td>
+									<td>16:00 ~ 17:00</td>
 									<td>풀이 및 결과발표</td>
-									<td>원천관 251호</td>
+									<td>혜강관 209호</td>
 								</tr>
 							</tbody>
 						</table>
@@ -405,7 +398,7 @@
 	</div>
 </section> -->
 
-<hr class="my-0" />
+<!--<hr class="my-0" />-->
 
 <section class="" id="policies">
 	<div class="container">
@@ -658,13 +651,13 @@
 						<p>
 							<strong>주최</strong>
 						</p>
-						<p />
-						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
-							<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
-								<img src="{base}/logo-ajou-linc3.0-white.png" alt="LINC 3.0" class="h-100" />
-							</a>
-						</div>
-						<p />
+<!--						<p />-->
+<!--						<div style="max-width: 250px; &#45;&#45;bs-aspect-ratio: 14%;" class="ratio">-->
+<!--							<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">-->
+<!--								<img src="{base}/logo-ajou-linc3.0-white.png" alt="LINC 3.0" class="h-100" />-->
+<!--							</a>-->
+<!--						</div>-->
+<!--						<p />-->
 						<div style="max-width: 250px; --bs-aspect-ratio: 14%;" class="ratio">
 							<a href="https://sw.ajou.ac.kr/sw/index.do" target="_blank" rel="noreferrer">
 								<img src="{base}/logo-ajou-ncesw-white.png" alt="SW중심대학사업단" class="h-100" />
@@ -677,7 +670,14 @@
 							<strong>주관</strong>
 						</p>
 						<p>
-							<img src="{base}/logo-ansi-white.png" alt="ANSI" width="200px" class="mw-100" />
+							<a href="https://ansi.ajou.club" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-ansi-white.png"
+									alt="ANSI"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
 						</p>
 					</div>
 					<div class="col-md-8" />
@@ -685,16 +685,16 @@
 						<p>
 							<strong>후원</strong>
 						</p>
-						<p>
-							<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">
-								<img
-									src="{base}/logo-company-dspace.png"
-									alt="dSPACE"
-									width="200px"
-									class="mw-100"
-								/>
-							</a>
-						</p>
+<!--						<p>-->
+<!--							<a href="https://www.dspace.com/ko/kor/home.cfm" target="_blank" rel="noreferrer">-->
+<!--								<img-->
+<!--									src="{base}/logo-company-dspace.png"-->
+<!--									alt="dSPACE"-->
+<!--									width="200px"-->
+<!--									class="mw-100"-->
+<!--								/>-->
+<!--							</a>-->
+<!--						</p>-->
 						<!-- <p>
 							<a href="https://www.morai.ai/ko" target="_blank" rel="noreferrer">
 								<img
@@ -719,16 +719,16 @@
 								/>
 							</a>
 						</p> -->
-						<p>
-							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">
-								<img
-									src="{base}/logo-company-hyundaimobis-white.png"
-									alt="Hyundai Mobis"
-									width="200px"
-									class="mw-100"
-								/>
-							</a>
-						</p>
+<!--						<p>-->
+<!--							<a href="https://www.mobis.co.kr/kr/index.do" target="_blank" rel="noreferrer">-->
+<!--								<img-->
+<!--									src="{base}/logo-company-hyundaimobis-white.png"-->
+<!--									alt="Hyundai Mobis"-->
+<!--									width="200px"-->
+<!--									class="mw-100"-->
+<!--								/>-->
+<!--							</a>-->
+<!--						</p>-->
 
 						<p>
 							<a href="https://solved.ac" target="_blank" rel="noreferrer">
@@ -741,16 +741,16 @@
 							</a>
 						</p>
 
-						<p>
-							<a href="https://coding-x.com/class" target="_blank" rel="noreferrer">
-								<img
-									src="{base}/logo-company-codingx-white.png"
-									alt="Coding X"
-									width="200px"
-									class="mw-100"
-								/>
-							</a>
-						</p>
+<!--						<p>-->
+<!--							<a href="https://coding-x.com/class" target="_blank" rel="noreferrer">-->
+<!--								<img-->
+<!--									src="{base}/logo-company-codingx-white.png"-->
+<!--									alt="Coding X"-->
+<!--									width="200px"-->
+<!--									class="mw-100"-->
+<!--								/>-->
+<!--							</a>-->
+<!--						</p>-->
 
 						<p>
 							<a href="https://startlink.io" target="_blank" rel="noreferrer">
