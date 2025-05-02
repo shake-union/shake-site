@@ -5,8 +5,6 @@
 <svelte:head>
 	<title>APC 아주대학교 프로그래밍 경시대회</title>
 
-	<script async src="https://tally.so/widgets/embed.js"></script>
-
 	<link
 		rel="apple-touch-icon-precomposed"
 		sizes="57x57"
