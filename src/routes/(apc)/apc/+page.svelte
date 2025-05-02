@@ -216,7 +216,12 @@
 						대회 중 퇴실은 불가합니다.
 					</li>
 					<li>
-						대회 중 chatGPT, Copilot 등을 포함한 생성형 AI의 사용을 금지합니다.
+						대회 중 대회 사이트와 안내된 공식 레퍼런스 사이트를 제외한 모든 웹 사이트의 접속을 금지합니다.
+						<ul>
+							<li>
+								chatGPT, Copilot 등을 포함한 모든 종류의 AI의 사용을 금지합니다.
+							</li>
+						</ul>
 					</li>
 				</ul>
 			</div>
@@ -284,7 +289,7 @@
 							<li>추첨상: 기업 후원 상품 (Div1, Div2 포함)</li>
 						</ul>
 						<p>
-							상위 입상자에게 경인지역 6개대학 연합 프로그래밍 경시대회 <a href="{base}/"
+							상위 입상자에게 경인지역 연합 프로그래밍 경시대회 <a href="{base}/"
 								><strong>shake!</strong></a
 							> 참가 자격 부여
 						</p>
@@ -355,7 +360,7 @@
 								<tr>
 									<td><strong>13:00 ~ 16:00</strong></td>
 									<td><strong>본 대회</strong></td>
-									<td><strong>혜강관 209호</strong></td>
+									<td><strong>혜강관 206/209호</strong></td>
 								</tr>
 								<tr>
 									<td>16:00 ~ 17:00</td>
@@ -435,7 +440,6 @@
 						<h5>대회 진행 전</h5>
 						<ul>
 							<li>APC는 1인 1팀의 <strong>개인전</strong> 형태로 치러집니다.</li>
-							<!-- <li><strong>본 대회는 온라인으로 진행되며, 참가자 전원은 대회 시간동안 zoom 어플리케이션을 통해 본인의 모습을 생중계 해야 합니다.</strong><a href="https://drive.google.com/file/d/1aoWj-KhGFc1uaghuiDzoojZ8omad6Imo/view?usp=sharing"> (zoom을 이용한 참가 가이드)</a></li> -->
 							<li>
 								대회에 사용할 <strong>컴퓨터는 개인 지참</strong>해야 하며, 1인당 1대의 컴퓨터만
 								허용합니다.
