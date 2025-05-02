@@ -78,7 +78,7 @@
 						<h4>대회 일시 및 장소</h4>
 						<p class="display-6"><strong>5월 17일(토) 12시 ~ 18시</strong></p>
 
-						<p class="display-6"><strong>개회식 : 혜강관 209호(강당)</strong></p>
+						<p class="display-6"><strong>장소 : 혜강관 209호(강당)</strong></p>
 						<a href="https://www.acmicpc.net/category/408" target="_blank" rel="noreferrer">
 							<button class="btn btn-ansi-cyan text-white w-100 p-3">지난 대회</button>
 						</a>
@@ -86,7 +86,7 @@
 					<div class="col-6">
 						<div style="height: 2px; width: 30px; background: white;" class="mb-4" />
 						<h4>접수 기간</h4>
-						<p class="display-6"><strong>5월 14일(수) 23시 59분까지</strong></p>
+						<p class="display-6"><strong>5월 15일(목) 23시 59분까지</strong></p>
 
 						<p class="display-6"><strong>참가 신청</strong></p>
 
@@ -199,16 +199,13 @@
 							<li>
 								Division 2 : 소프트웨어융합대학 혹은 정보통신대학 소속이 아닌 자
 							</li>
-							<ul>
-								<li>
-									(예 1) 소프트웨어학과 학생은 반드시 Division 1에 참가해야 합니다.
-								</li>
+							<li>
+								(예 1) 소프트웨어학과 학생은 반드시 Division 1에 참가해야 합니다.
+							</li>
 
-								<li>
-									(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
-								</li>
-							</ul>
-
+							<li>
+								(예 2) 불어불문학과 학생은 Division 1과 2 중 하나에 선택하여 참가할 수 있습니다.
+							</li>
 						</ul>
 					</li>
 

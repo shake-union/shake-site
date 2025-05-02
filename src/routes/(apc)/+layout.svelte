@@ -114,7 +114,7 @@
 			<div class="col-md-10 offset-md-1">
 				<nav class="navbar navbar-expand-lg">
 					<a class="navbar-brand" href="{base}/apc">
-						<img src="{base}/logo-apc.png" alt="APC" height="30px" />
+						<img src="{base}/logo-apc-2025.png" alt="APC" height="30px" />
 					</a>
 					<button
 						class="navbar-toggler"
