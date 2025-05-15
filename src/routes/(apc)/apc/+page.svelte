@@ -90,10 +90,8 @@
 
 						<p class="display-6"><strong>참가 신청</strong></p>
 
-						<a href="https://tally.so/r/w2VyAb" target="_blank" rel="noreferrer">
-<!--							<button class="btn btn-ansi-red text-white w-100 p-3" data-tally-open="w2VyAb">참가 신청</button>-->
-							<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청</button>
-						</a>
+						<button class="btn btn-ansi-red text-white w-100 p-3">참가 신청이 마감 되었습니다.</button>
+
 					</div>
 				</div>
 			</div>
