@@ -758,6 +758,17 @@
 <!--						</p>-->
 
 						<p>
+							<a href="https://infossm.github.io" target="_blank" rel="noreferrer">
+								<img
+									src="{base}/logo-company-samsung-sw-membership.png"
+									alt="Samsung Software Membership"
+									width="200px"
+									class="mw-100"
+								/>
+							</a>
+						</p>
+
+						<p>
 							<a href="https://solved.ac" target="_blank" rel="noreferrer">
 								<img
 									src="{base}/logo-company-solvedac-white.png"
