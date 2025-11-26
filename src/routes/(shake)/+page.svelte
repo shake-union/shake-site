@@ -458,7 +458,7 @@
 						</p>
 						<ul>
 							<li>각 학교 선발전을 통해 정당하게 선출된 자</li>
-							<li>2024년 2학기 기준 해당 학교 재학 상태인 자</li>
+							<li>2025년 2학기 기준 해당 학교 소속 상태인 자</li>
 							<li>
 								역대 <strong
 									><a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
@@ -483,7 +483,7 @@
 							</li>
 							<li>참가자는 각 문제에 대한 해답을 작성하는 소스코드를 제출한다.</li>
 							<li>
-								사용가능한 프로그래밍 언어는 <strong>C/C++, Java, Python2,3로 제한한다.</strong>
+								사용가능한 프로그래밍 언어는 <strong>C/C++, Java, Python3로 제한한다.</strong>
 							</li>
 							<li>제출된 소스코드는 시스템에 의해 실시간으로 채점된다.</li>
 							<li>채점이 완료되면 참가자는 채점 결과를 확인할 수 있다.</li>
