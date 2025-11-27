@@ -81,9 +81,9 @@ export const universities: University[] = [
 		shortname: '항공대',
 		id: 'krar',
 		host: '한국항공대학교 SW중심대학사업단',
-		organizerAffiliation: '한국항공대학교 SW중심대학사업단',
-		organizerName: '',
-		organizerRepresentative: '',
+		organizerAffiliation: '한국항공대학교 알고리즘 학회',
+		organizerName: 'Koala',
+		organizerRepresentative: '조영서',
 		precontest: '2025 제5회 한국항공대학교 프로그래밍 경시대회 (KAUPC)',
 		precontestDate: '2025. 9. 27.',
 		component: krar
