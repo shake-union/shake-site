@@ -8,7 +8,15 @@
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
-	<video class="position-absolute start-0 top-0 w-100 object-fit-cover object-position-center" src="{base}/bg-main.mp4" autoplay muted loop  alt="apc_background"/>
+	<video
+		class="position-absolute start-0 top-0 min-vh-100 min-vw-100"
+		playsinline
+		autoplay
+		muted
+		loop
+	>
+		<source src="{base}/bg-main.mp4" type="video/mp4" />
+	</video>
 	<!--
 	<style>
 		.image-container {
