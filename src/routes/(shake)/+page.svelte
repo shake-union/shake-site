@@ -8,7 +8,8 @@
 </script>
 
 <div class="bg-secondary vh-100 overflow-hidden position-relative">
-	<!-- <img class="position-absolute start-0 top-0 w-100 object-fit-cover" src="{base}/shakenew.png" alt="apc_background"/> -->
+	<video class="position-absolute start-0 top-0 w-100 object-fit-cover object-position-center" src="{base}/bg-main.mp4" autoplay muted loop  alt="apc_background"/>
+	<!--
 	<style>
 		.image-container {
 		  position: absolute;
@@ -25,13 +26,12 @@
 		  object-position: center; /* 이미지 중심을 기준으로 배치 */
 		}
 	  </style>
-	  
 	  <div class="image-container">
 		<img src="{base}/shakenew.png" alt="apc_background" />
 	  </div>
-	<!-- position-absolute start-0 top-0 min-vh-100 min-vw-100 -->
+	position-absolute start-0 top-0 min-vh-100 min-vw-100 -->
 
-	<!-- <div
+	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
 		style="background-color: rgba(255, 255, 255, 0.5);"
 	/>
@@ -42,10 +42,10 @@
 	<div
 		class="position-absolute start-0 top-0 w-100 h-100"
 		style="background-color: rgba(0, 0, 0, 0.5);"
-	/> -->
+	/>
 
 	<div class="container vh-100 position-relative">
-		<!-- <div class="row text-white d-none d-sm-flex align-items-center h-100">
+		<div class="row text-white d-none d-sm-flex align-items-center h-100">
 			<div class="col-10 offset-1">
 				<h1 class="display-4">
 					<div class="fw-lighter">조금 더 넓은 곳에서</div>
@@ -53,13 +53,13 @@
 				</h1>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="{base}/results/2023" class="btn btn-punch shadow-sm btn-shake-primary text-light"
-						>2023 결과</a
+					<a href="{base}/results/2024" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+						>2024 결과</a
 					>
 				</div>
 			</div>
-		</div> -->
-		<!-- <div class="row text-white d-flex d-sm-none align-items-center h-100">
+		</div>
+		<div class="row text-white d-flex d-sm-none align-items-center h-100">
 			<div class="col-10 offset-1 text-center">
 				<h2>
 					<div>조금 더 넓은 곳에서</div>
@@ -67,12 +67,12 @@
 				</h2>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="{base}/results/2023" class="btn btn-punch shadow-sm btn-shake-primary text-light"
-						>2023 결과</a
+					<a href="{base}/results/2024" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+						>2024 결과</a
 					>
 				</div>
 			</div>
-		</div> -->
+		</div>
 		<a
 			href="#about"
 			title=""
@@ -93,6 +93,7 @@
 	<div class="row my-7">
 		<div class="col-md-10 offset-md-1">
 			<h2>주요 공지</h2>
+			<!--
 			<ol>
 				<li>
 					<strong>(25.01.10)</strong> <del>현재 예비소집 대회가 열리지 않은 것으로 확인되었습니다. </del>
@@ -113,6 +114,7 @@
 					<strong>(25.01.09)</strong> 대회 매뉴얼과 계정을 담은 메일이 발송 되었습니다. 참가자 여러분은 준비된 예비소집 대회를 통해 대회 환경을 점검해 주시기 바랍니다.
 				</li>
 			</ol>
+			-->
 		</div>
 	</div>
 </section>
@@ -256,7 +258,7 @@
 				<h2><strong>대회 참가</strong> 안내</h2>
 				<p>
 					<strong>shake!</strong>는 각 학교 선발전을 통해 선발된 학교 대표 학생들만 참가할 수
-					있습니다. 2024 경인지역 대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
+					있습니다. 2025 경인지역 대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
 					<strong>학교 대표 선발전</strong> 일정은 아래와 같습니다.
 					<br />
 					<strong>문의사항</strong>은 각 학교별 주관처를 통해주시기 바랍니다.
@@ -316,36 +318,63 @@
 					<hr />
 					<div>
 						<h6><strong>일시</strong></h6>
-						<p>2025년 1월 11일 토요일 12시 ~ 19시</p>
+						<p>2026년 1월 10일 토요일 12시 ~ 18시</p>
 						<h6><strong>장소</strong></h6>
-						<p>경희대학교 국제캠퍼스 멀티미디어 교육관 112호</p>
+						<p>아주대학교 혜강관 209호</p>
 						<h6><strong>시상</strong></h6>
 						<div class="row">
+						<!--
 							<div class="col-3">대상(1명)</div>
-							<div class="col-9">상금 100만원</div>
+						-->
+							<div class="col-3">대상(-명)</div>
+							<div class="col-9">TBD</div>
 						</div>
 						<div class="row">
+						<!--
 							<div class="col-3">최우수상(2명)</div>
 							<div class="col-9">
 								상금 50만원
 							</div>
+						-->
+							<div class="col-3">최우수상(-명)</div>
+							<div class="col-9">
+								TBD
+							</div>
 						</div>
 						<div class="row">
+						<!--
 							<div class="col-3">우수상(2명)</div>
 							<div class="col-9">
 								상금 30만원
 							</div>
+						-->
+							<div class="col-3">우수상(-명)</div>
+							<div class="col-9">
+								TBD
+							</div>
 						</div>
 						<div class="row">
+						<!--
 							<div class="col-3">장려상(4명)</div>
 							<div class="col-9">
 								상금 10만원 + Marshall 블루투스 스피커
 							</div>
+						-->
+							<div class="col-3">장려상(-명)</div>
+							<div class="col-9">
+								TBD
+							</div>
 						</div>
 						<div class="row">
+						<!--
 							<div class="col-3">특별상(6명)</div>
 							<div class="col-9">
 								소니 XM5 헤드폰 1대, 갤럭시워치7 2대, 네스프레소 커피머신 3대
+							</div>
+						-->
+							<div class="col-3">특별상(-명)</div>
+							<div class="col-9">
+								TBD
 							</div>
 						</div>
 					</div>

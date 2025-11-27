@@ -176,6 +176,7 @@
 											</a>
 										</div>
 									</div>
+									<!--
 									<div class="col-12">
 										<div class="ratio" style="--bs-aspect-ratio: 14%;">
 											<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
@@ -198,6 +199,7 @@
 											</a>
 										</div>
 									</div>
+									-->
 								</div>
 							</div>
 							<div class="col-5 col-md-2" />
@@ -245,6 +247,7 @@
 											<img src="{base}/logo-company-startlink.png" alt="Startlink" class="w-100" />
 										</a>
 									</div>
+									<!--
 									<div class="col-12">
 										<a href="https://infossm.github.io/" target="_blank" rel="noreferrer">
 											<img src="{base}/samsungsw.png" alt="SamsungSW" class="w-100" />
@@ -264,6 +267,7 @@
 											</strong>
 										</h5>
 									</div>
+									-->
 								</div>
 							</div>
 							<div class="col-7 col-md-5" />
