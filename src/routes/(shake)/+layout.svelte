@@ -176,18 +176,18 @@
 											</a>
 										</div>
 									</div>
-									<!--
 									<div class="col-12">
-										<div class="ratio" style="--bs-aspect-ratio: 14%;">
+										<div class="ratio" style="--bs-aspect-ratio: 12%;">
 											<a href="https://linc.ajou.ac.kr" target="_blank" rel="noreferrer">
 												<img
-													src="{base}/logo-ajou-linc3.0-black.png"
-													alt="LINC 3.0"
+													src="{base}/logo-ajou-rise.png"
+													alt="rise"
 													class="h-100"
 												/>
 											</a>
 										</div>
 									</div>
+									<!--
 									<div class="col-12">
 										<div class="ratio" style="--bs-aspect-ratio: 20%;">
 											<a href="https://swedu.khu.ac.kr/" target="_blank" rel="noreferrer">
@@ -228,6 +228,11 @@
 										</a>
 									</div> -->
 									<div class="col-12">
+										<a href="https://www.nexon.com/" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-nexon.png" alt="Mobis" class="w-100" />
+										</a>
+									</div>
+									<div class="col-12">
 										<a href="https://www.mobis.co.kr" target="_blank" rel="noreferrer">
 											<img src="{base}/logo-company-hyundaimobis.jpg" alt="Mobis" class="w-100" />
 										</a>
@@ -238,8 +243,8 @@
 										</a>
 									</div> -->
 									<div class="col-12">
-										<a href="https://solved.ac/" target="_blank" rel="noreferrer">
-											<img src="{base}/logo-company-solvedac-black.png" alt="solved.ac" class="w-100" />
+										<a href="https://infossm.github.io/" target="_blank" rel="noreferrer">
+											<img src="{base}/samsungsw.png" alt="SamsungSW" class="w-100" />
 										</a>
 									</div>
 									<div class="col-12">
@@ -247,27 +252,25 @@
 											<img src="{base}/logo-company-startlink.png" alt="Startlink" class="w-100" />
 										</a>
 									</div>
-									<!--
 									<div class="col-12">
-										<a href="https://infossm.github.io/" target="_blank" rel="noreferrer">
-											<img src="{base}/samsungsw.png" alt="SamsungSW" class="w-100" />
+										<a href="https://solved.ac/" target="_blank" rel="noreferrer">
+											<img src="{base}/logo-company-solvedac-black.png" alt="solved.ac" class="w-100" />
 										</a>
 									</div>
 									<div class="col-12">
 										<h5>
 											<strong>
-												Chris Ohk (utilForever)
+												cubic
 											</strong>
 										</h5>
 									</div>
 									<div class="col-12">
 										<h5>
 											<strong>
-												아주대학교 A.N.S.I.<br>졸업생 일동
+												Haru_101
 											</strong>
 										</h5>
 									</div>
-									-->
 								</div>
 							</div>
 							<div class="col-7 col-md-5" />
