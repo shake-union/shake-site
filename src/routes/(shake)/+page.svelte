@@ -331,58 +331,31 @@
 						<p>아주대학교 혜강관 209호</p>
 						<h6><strong>시상</strong></h6>
 						<div class="row">
-						<!--
 							<div class="col-3">대상(1명)</div>
-						-->
-							<div class="col-3">대상(-명)</div>
-							<div class="col-9">TBD</div>
+							<div class="col-9">상금 100만원</div>
 						</div>
 						<div class="row">
-						<!--
 							<div class="col-3">최우수상(2명)</div>
 							<div class="col-9">
 								상금 50만원
 							</div>
-						-->
-							<div class="col-3">최우수상(-명)</div>
-							<div class="col-9">
-								TBD
-							</div>
 						</div>
 						<div class="row">
-						<!--
 							<div class="col-3">우수상(2명)</div>
 							<div class="col-9">
 								상금 30만원
 							</div>
-						-->
-							<div class="col-3">우수상(-명)</div>
-							<div class="col-9">
-								TBD
-							</div>
 						</div>
 						<div class="row">
-						<!--
 							<div class="col-3">장려상(4명)</div>
 							<div class="col-9">
-								상금 10만원 + Marshall 블루투스 스피커
-							</div>
-						-->
-							<div class="col-3">장려상(-명)</div>
-							<div class="col-9">
-								TBD
+								상금 10만원
 							</div>
 						</div>
 						<div class="row">
-						<!--
-							<div class="col-3">특별상(6명)</div>
+							<div class="col-3">특별상</div>
 							<div class="col-9">
-								소니 XM5 헤드폰 1대, 갤럭시워치7 2대, 네스프레소 커피머신 3대
-							</div>
-						-->
-							<div class="col-3">특별상(-명)</div>
-							<div class="col-9">
-								TBD
+								후원사 특별상
 							</div>
 						</div>
 					</div>
