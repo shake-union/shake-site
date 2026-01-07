@@ -353,9 +353,9 @@
 							</div>
 						</div>
 						<div class="row">
-							<div class="col-3">특별상</div>
+							<div class="col-3">추첨상</div>
 							<div class="col-9">
-								후원사 특별상
+								애플워치, 키보드, 치킨 기프티콘 등
 							</div>
 						</div>
 					</div>
