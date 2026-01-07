@@ -271,6 +271,13 @@
 											</strong>
 										</h5>
 									</div>
+									<div class="col-12">
+										<h5>
+											<strong>
+												류지성
+											</strong>
+										</h5>
+									</div>
 								</div>
 							</div>
 							<div class="col-7 col-md-5" />
