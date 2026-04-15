@@ -61,8 +61,8 @@
 				</h1>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="{base}/results/2024" class="btn btn-punch shadow-sm btn-shake-primary text-light"
-						>2024 결과</a
+					<a href="{base}/results/2025" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+						>2025 결과</a
 					>
 				</div>
 			</div>
@@ -75,8 +75,8 @@
 				</h2>
 				<div class="mt-5">
 					<a href="#about" class="btn btn-punch shadow-sm btn-light me-3">대회 정보</a>
-					<a href="{base}/results/2024" class="btn btn-punch shadow-sm btn-shake-primary text-light"
-						>2024 결과</a
+					<a href="{base}/results/2025" class="btn btn-punch shadow-sm btn-shake-primary text-light"
+						>2025 결과</a
 					>
 				</div>
 			</div>
