@@ -253,6 +253,9 @@
 							<strong>Division 1, Division 2 참가 가능 여부는 "제1전공"을 기준으로 합니다. (학사서비스 ⇒
 								학적 기본 조회 ⇒ 전공 ⇒ 제1전공)</strong>
 						</li>
+						<li>
+							<strong>Division 1 에서 1문제 이상 해결할 경우 소프트웨어학과 졸업요건 중 프로그래밍 역량 인증기준(TOPCIT) 대체 가능합니다.</strong>
+						</li>
 					</ul>
 					<p />
 					<p />
