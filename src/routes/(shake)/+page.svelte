@@ -266,7 +266,7 @@
 				<h2><strong>대회 참가</strong> 안내</h2>
 				<p>
 					<strong>shake!</strong>는 각 학교 선발전을 통해 선발된 학교 대표 학생들만 참가할 수
-					있습니다. 2025 경인지역 대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
+					있습니다. 2026 경인지역 대학 연합 프로그래밍 경시대회 <strong>shake!</strong>의
 					<strong>학교 대표 선발전</strong> 일정은 아래와 같습니다.
 					<br />
 					<strong>문의사항</strong>은 각 학교별 주관처를 통해주시기 바랍니다.
@@ -309,7 +309,7 @@
 								</div>
 								<div class="row">
 									<div class="col-4"><strong>선발전 주관</strong></div>
-									<div class="col-8">{univ.organizerAffiliation} {univ.organizerName}</div>
+									<div class="col-8">{univ.qualifierOrganizer ?? `${univ.organizerAffiliation} ${univ.organizerName}`}</div>
 								</div>
 								<div class="row">
 									<div class="col-4"><strong>주관 대표</strong></div>
@@ -326,7 +326,7 @@
 					<hr />
 					<div>
 						<h6><strong>일시</strong></h6>
-						<p>2026년 1월 10일 토요일 12시 ~ 18시</p>
+						<p>2027년 1월 9일, 12시~18시</p>
 						<h6><strong>장소</strong></h6>
 						<p>아주대학교 혜강관 209호</p>
 						<h6><strong>시상</strong></h6>
@@ -354,9 +354,7 @@
 						</div>
 						<div class="row">
 							<div class="col-3">추첨상</div>
-							<div class="col-9">
-								애플워치, 키보드, 치킨 기프티콘 등
-							</div>
+							<div class="col-9"></div>
 						</div>
 					</div>
 				</div>
@@ -468,7 +466,7 @@
 						</p>
 						<ul>
 							<li>각 학교 선발전을 통해 정당하게 선출된 자</li>
-							<li>2025년 2학기 기준 해당 학교 소속 상태인 자</li>
+							<li>2026학년도 1학기 또는 2학기 중 한 학기 이상 재학한 학부생</li>
 							<li>
 								역대 <strong
 									><a href="https://icpckorea.org/" target="_blank" rel="noreferrer"
@@ -486,9 +484,6 @@
 							<li><string>shake!</string>는 1인 1팀의 개인전 형태로 치러진다.</li>
 							<li>대회에 사용할 컴퓨터는 개인 지참해야 하며, 1인당 1대의 컴퓨터만 허용된다.</li>
 							<li>
-								레퍼런스 사이트 이외의 모든 소프트카피를 금지한다.
-							</li>
-							<li>
 								A4크기, 25장의 단면 인쇄된 하드카피를 허용한다.
 							</li>
 							<li>참가자는 각 문제에 대한 해답을 작성하는 소스코드를 제출한다.</li>
@@ -498,7 +493,7 @@
 							<li>제출된 소스코드는 시스템에 의해 실시간으로 채점된다.</li>
 							<li>채점이 완료되면 참가자는 채점 결과를 확인할 수 있다.</li>
 							<li>
-								대회 중 문제 및 채점에 관한 질문은 대회 진행 페이지의 문의하기 기능 을 통한다.
+								대회 중 문제 및 채점에 관한 질문은 대회 진행 페이지의 문의하기 기능을 통한다.
 							</li>
 							<li>문제와 채점에 관련되지 않은 사항은 대회장에 있는 감독관에게 직접 문의한다.</li>
 							<li>
@@ -511,7 +506,7 @@
 							<li>제출된 소스코드는 시스템을 통하여 자동으로 채점된다.</li>
 							<li>모든 테스트케이스에 대해 올바른 정답을 출력하는 코드만을 정답으로 인정한다.</li>
 							<li>
-								참가자는 자신이 제출한 소스코드에 대한 채점 결과를 실시간으로 확인 할 수 있다.
+								참가자는 자신이 제출한 소스코드에 대한 채점 결과를 실시간으로 확인할 수 있다.
 							</li>
 							<li>모든 소스코드는 시스템과 채점관을 통해 부정행위 여부가 검사된다.</li>
 							<li>컴파일 과정이나 실행 도중에 에러가 발생하는 경우 오답처리한다.</li>
@@ -526,7 +521,7 @@
 							<li>각 참가자는 정답 판정을 받은 문제 개수와 패널티를 가진다.</li>
 							<li>
 								참가자가 각 문제에 대해 최초 정답 판정을 받을 때 패널티에 <strong
-									>((정답 제 출 시각 – 대회 시작 시각) + (해당 문제 제출 횟수 – 1) * 20)</strong
+									>((정답 제출 시각 – 대회 시작 시각) + (해당 문제 제출 횟수 – 1) * 20)</strong
 								>의 시간이 가산된다.
 							</li>
 							<li>
@@ -545,13 +540,8 @@
 						</div>
 						<h3>채점 환경</h3>
 						<p>
-							모든 채점은 <a href="https://startlink.io/" target="_blank" rel="noreferrer"
-								>Startlink</a
-							>의
-							<a href="https://www.acmicpc.net" target="_blank" rel="noreferrer">백준 온라인 저지</a
-							>
-							플랫폼에서 이루어지며, 참가자들은 미리 플랫폼을 이용해볼 수 있다. <a href="https://help.acmicpc.net/judge/info" target="_blank" rel="noreferrer">여기</a
-							>에서 상세한 정보를 확인할 수 있다.
+							대회는 shake! 자체 플랫폼에서 진행하며, 제출한 코드는 DOMjudge에서 채점된다.
+							자세한 채점 방식은 <a href="https://www.domjudge.org/docs/manual/9.0/team.html#how-are-submissions-being-judged" target="_blank" rel="noreferrer">여기</a>에서 확인할 수 있다.
 							
 							<!--
 							<br />
