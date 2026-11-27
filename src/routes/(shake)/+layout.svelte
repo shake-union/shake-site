@@ -281,6 +281,14 @@
 											</h5>
 										</div>
 									</div>
+								{:else}
+									<div class="row gy-3">
+										<div class="col-12">
+											<a href="https://www.mobis.co.kr" target="_blank" rel="noreferrer">
+												<img src="{base}/logo-company-hyundaimobis.jpg" alt="현대모비스" class="w-100" />
+											</a>
+										</div>
+									</div>
 								{/if}
 							</div>
 							<div class="col-7 col-md-5" />
